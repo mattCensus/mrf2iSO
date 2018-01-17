@@ -152,7 +152,8 @@
             <xsl:attribute name="xsi:schemaLocation">http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd</xsl:attribute>
             <xsl:call-template name="gmdfileIdentifier"/>
             <xsl:call-template name="gmdLanguage"/>
-            <xsl:call-template name="gmd_characterSet"/>
+           <!--   <xsl:call-template name="gmd_characterSet"/>-->
+            <xsl:call-template name="gmd_characterSetMeta"/>
             <xsl:call-template name="parentIdentifier"/>
             <xsl:call-template name="hierarchySet"/>
             <xsl:call-template name="contact"/>

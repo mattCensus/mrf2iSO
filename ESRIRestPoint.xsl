@@ -101,7 +101,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'CNECTA')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">https://tigerweb.geo.cRensus.gov/arcgis/rest/services/TIGERweb/CBSA/MapServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/CBSA/MapServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfile"/>
                                 <xsl:call-template name="CBSARestPoint"/>

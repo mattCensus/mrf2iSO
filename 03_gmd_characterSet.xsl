@@ -33,13 +33,18 @@
     </xd:doc>
 
     <xsl:template name="gmd_characterSet">
+        <xsl:comment>In the gmd_characterSet template!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</xsl:comment>
+         <xsl:variable name="CharSet" select="/MRF/Metadata_Reference_Information/Metadata_Character_Set"/>
+         <xsl:comment> CharSet <xsl:value-of select="$CharSet"/></xsl:comment>             
         <xsl:choose>
             <xsl:when test="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]">
+                <xsl:comment> In the when!!!!!!!!!!!!!!!!!</xsl:comment>
+                <!--  <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Identification_Information/Data_Set_Character_Set"/></xsl:attribute>-->
                 <xsl:element name="gmd:characterSet">
                     <xsl:element name="gmd:MD_CharacterSetCode">
                         <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
                         <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
-                        <xsl:attribute name="codeSpace"><xsl:call-template name="Metadata_Character_Set_CodeSpace"/></xsl:attribute>
+                         <xsl:attribute name="codeSpace"><xsl:call-template name="Metadata_Character_Set_CodeSpace"/></xsl:attribute>
                         <xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/>
                     </xsl:element>
                 </xsl:element>
@@ -57,6 +62,7 @@
     </xsl:template>
     
     <xsl:template name="Metadata_Character_Set">
+        <xsl:comment>In the Metadata_Character_Set template!!!!!!!!!!!!!!!!!!!!!!!!!!</xsl:comment>
         <xsl:choose>
             <xsl:when test="/MRF/Identification_Information/Data_Set_Character_Set">
                 <xsl:element name="gmd:characterSet">
@@ -64,7 +70,7 @@
                         <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
                         <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Identification_Information/Data_Set_Character_Set"/></xsl:attribute>
                         <xsl:attribute name="codeSpace"><xsl:call-template name="Metadata_Character_Set_CodeSpace"/></xsl:attribute>
-                        <xsl:value-of select="/MRF/Identification_Information/Data_Set_Character_Set"/>
+                        
                     </xsl:element>
                 </xsl:element>
             </xsl:when>
@@ -81,7 +87,9 @@
     </xsl:template>
     
     <xsl:template name="Metadata_Character_Set_CodeSpace">
+        <xsl:comment>In the Metadata_Character_Set_CodeSpace template!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</xsl:comment>
         <xsl:variable name="CharSet" select="/MRF/Metadata_Reference_Information/Metadata_Character_Set"/>
+        <xsl:comment> CharSet <xsl:value-of select="$CharSet"/></xsl:comment>
         <xsl:choose>
             
             <xsl:when test="$CharSet = 'ucs2'">
@@ -97,6 +105,10 @@
             </xsl:when>
             
             <xsl:when test="$CharSet = 'utf8'">
+                <xsl:attribute name="codeSpace">004</xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet='UTF-8'">
                 <xsl:attribute name="codeSpace">004</xsl:attribute>
             </xsl:when>
             
@@ -196,7 +208,317 @@
                 <xsl:attribute name="codeSpace">029</xsl:attribute>
             </xsl:when>
             
-            
+            <xsl:otherwise>
+                <xsl:attribute name="codeSpace">999</xsl:attribute>
+            </xsl:otherwise>
         </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template name="gmd_characterSetMeta">
+         <xsl:variable name="CharSet" select="/MRF/Metadata_Reference_Information/Metadata_Character_Set"/>
+            <xsl:comment> CharSet <xsl:value-of select="$CharSet"/></xsl:comment>
+        <xsl:choose>
+           
+            <xsl:when test="$CharSet = 'ucs2'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">001</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = 'ucs4'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">002</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = 'utf7'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">003</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = 'utf8'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">004</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet='UTF-8'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">004</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = 'utf16'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">005</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = '8859part1'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">006</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = '8859part2'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">007</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = '8859part3'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">008</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = '8859part4'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">009</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = '8859part5'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">010</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = '8859part6'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">011</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = '8859part7'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">012</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = '8859part8'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">013</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = '8859part9'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">014</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = '8859part10'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">015</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = '8859part11'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">016</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = '8859part13'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">018</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = '8859part14'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">019</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = '8859part15'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">020</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = '8859part16'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">021</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = 'jis'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">022</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = 'shiftJIS'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">023</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = 'eucJP'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">024</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = 'usAscii'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">025</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = 'ebcdic'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">026</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = 'eucKR'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">027</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = 'big5'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">028</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:when test="$CharSet = 'GB2312'">
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">029</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:when>
+            
+            <xsl:otherwise>
+                <xsl:element name="gmd:characterSet">
+                    <xsl:element name="gmd:MD_CharacterSetCode">
+                        <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode</xsl:attribute>
+                        <xsl:attribute name="codeListValue"><xsl:value-of select="/MRF/Metadata_Reference_Information[1]/Metadata_Character_Set[1]"/></xsl:attribute>
+                        <xsl:attribute name="codeSpace">999</xsl:attribute>
+                    </xsl:element>
+                </xsl:element>
+            </xsl:otherwise>
+        </xsl:choose>
+        
     </xsl:template>
 </xsl:stylesheet>

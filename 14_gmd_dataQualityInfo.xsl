@@ -58,9 +58,10 @@
       </xd:desc>
    </xd:doc>
 
-
+<xsl:strip-space elements="*"/>
 
    <xsl:template name="dataQualityInfo" match="/">
+      
       <xsl:element name="gmd:dataQualityInfo">
          <xsl:element name="gmd:DQ_DataQuality">
 
@@ -121,7 +122,7 @@
                                        <xsl:variable name="AccValueA" select="./Horizontal_Positional_Accuracy_Value"/>
                                     <xsl:variable name="AccValue" select="normalize-space(./Horizontal_Positional_Accuracy_Value)"></xsl:variable>
                                        <xsl:variable name="NumOfMeters" select="substring($AccValue,0,5)"/>
-                                        <xsl:variable name="postFor" select="substring-after($AccValue,'for')"/>
+                                        <xsl:variable name="postFor" select="substring-after($AccValue,'for ')"/>
                                        <xsl:variable name="ComMeters" select="concat('Meters',$NumOfMeters,'for',$postFor)"/>
                                        <xsl:variable name="ComMetersB" select="normalize-space($ComMeters)"></xsl:variable>
                                        <!--   <xsl:comment>present:<xsl:value-of select="."></xsl:value-of></xsl:comment>
@@ -406,6 +407,7 @@
                                               <xsl:element name="gmd:CI_DateTypeCode">
                                                 <xsl:variable name="SorCurRef" select="./Source_Currentness_Reference"/> 
                                                  <xsl:variable name="creation">creation</xsl:variable>
+                                                 <xsl:variable name="pubDate">publication</xsl:variable>
                                                 <xsl:attribute name="codeList">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode</xsl:attribute>
                                                 
                                                 
@@ -413,6 +415,9 @@
                                                    <xsl:choose>
                                                       <xsl:when test="contains($SorCurRef,'effective date')">
                                                          <xsl:value-of select="$creation"/> 
+                                                      </xsl:when>
+                                                      <xsl:when test="contains($SorCurRef,'publication date')">
+                                                         <xsl:value-of select="$pubDate"/>
                                                       </xsl:when>
                                                       <xsl:otherwise>
                                                          <xsl:value-of select="./Source_Currentness_Reference[1]"/> 
@@ -423,6 +428,9 @@
                                                  <xsl:choose>
                                                     <xsl:when test="contains($SorCurRef,'effective date')">
                                                        creation
+                                                    </xsl:when>
+                                                    <xsl:when test="contains($SorCurRef,'publication date')">
+                                                       <xsl:value-of select="$pubDate"/>
                                                     </xsl:when>
                                                     <xsl:otherwise>
                                                        <xsl:value-of select="./Source_Currentness_Reference[1]"/> 

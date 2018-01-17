@@ -51,7 +51,7 @@
                         <xsl:choose>
                             <xsl:when test="contains($theme,'Current Secondary School Districts')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>  
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>  
                                     </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -63,7 +63,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current Consolidated City')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -75,7 +75,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current Elementary School Districts')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -87,7 +87,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Congressional District')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -99,7 +99,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current American Indian Tribal Subdivision')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -122,7 +122,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'CNECTA')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -134,7 +134,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'CSA')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -146,7 +146,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current County and Equivalent')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -158,7 +158,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current Metropolitan Division')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
                                 <xsl:element name="gmd:description">
@@ -169,7 +169,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'CBSA')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -182,7 +182,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'NECTA Division')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -195,7 +195,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'State and Equivalent')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -206,7 +206,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current Tribal Block Group')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -218,7 +218,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current Tribal Census Tract')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -230,7 +230,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'ANRC')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -242,7 +242,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Census  Urban Area')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -254,7 +254,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'ZCTA5')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -266,7 +266,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'NECTA')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -278,7 +278,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'PUMA')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -290,7 +290,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current Block Group')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -302,7 +302,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current Census Tract')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -314,7 +314,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Census  Block State-based')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -326,7 +326,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current County Subdivision')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -338,7 +338,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current Place')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -350,7 +350,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'State Legislative District (SLD) Lower Chamber')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -362,7 +362,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current State Legislative District (SLD) Upper Chamber')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -374,7 +374,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current Unified School Districts')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -386,7 +386,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current Subbarrio')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -398,7 +398,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current Estate')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                  <xsl:call-template name="tigerWMS_CurrentWMS"/>

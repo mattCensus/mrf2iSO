@@ -46,7 +46,7 @@
                         <xsl:choose>
                             <xsl:when test="contains($theme,'Current Secondary School Districts')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Secondary School Districts,Secondary School Districts Labels&amp;STYLES&amp;STYLES =&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:3857 &amp;BBOX=-11679625.942909468,4709198.547476525,-11645573.246808422,4737900.651597611&amp;WIDTH=1091&amp;HEIGHT=951</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Secondary School Districts,Secondary School Districts Labels&amp;STYLES&amp;STYLES =&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:3857 &amp;BBOX=-11679625.942909468,4709198.547476525,-11645573.246808422,4737900.651597611&amp;WIDTH=1091&amp;HEIGHT=951</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -56,7 +56,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current Consolidated City')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Consolidated Cities,Consolidated Cities Labels&amp;STYLES=default, default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:3857 &amp;BBOX=-11679625.942909468,4709198.547476525,-11645573.246808422,4737900.651597611&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Consolidated Cities,Consolidated Cities Labels&amp;STYLES=default, default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:3857 &amp;BBOX=-11679625.942909468,4709198.547476525,-11645573.246808422,4737900.651597611&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -66,7 +66,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current Elementary School Districts')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Elementary School Districts,Elementary School Districts Labels&amp;STYLES=default, default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326 &amp;BBOX=32.860571,-113.5097542,46.389131,-113.509754&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Elementary School Districts,Elementary School Districts Labels&amp;STYLES=default, default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326 &amp;BBOX=32.860571,-113.5097542,46.389131,-113.509754&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -76,7 +76,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Congressional District')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=114th Congressional Districts,114th Congressional Districts Labels&amp;STYLES=default, default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326 &amp;BBOX=32.860571,-113.5097542,46.389131,-113.509754&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=114th Congressional Districts,114th Congressional Districts Labels&amp;STYLES=default, default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326 &amp;BBOX=32.860571,-113.5097542,46.389131,-113.509754&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -86,7 +86,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current American Indian Tribal Subdivision')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Tribal Subdivisions,Tribal Subdivisions Labels,Oklahoma Tribal Statistical Areas,Oklahoma Tribal Statistical Areas Labels&amp;STYLES=default, default,default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326 &amp;BBOX=32.860571,-113.5097542,46.389131,-113.509754&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Tribal Subdivisions,Tribal Subdivisions Labels,Oklahoma Tribal Statistical Areas,Oklahoma Tribal Statistical Areas Labels&amp;STYLES=default, default,default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326 &amp;BBOX=32.860571,-113.5097542,46.389131,-113.509754&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -96,7 +96,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'AIANNH')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;LAYERS=Off-Reservation Trust Lands,Off-Reservation Trust Lands Labels,State American Indian Reservations,State American Indian Reservations Labels,Hawaiian Home Lands,Hawaiian Home Lands Labels,Alaska Native Village Statistical Areas,Alaska Native Village Statistical Areas Labels,Federal American Indian Reservations,Federal American Indian Reservations Labels,Tribal Subdivisions,Tribal Subdivisions Labels,Oklahoma Tribal Statistical Areas,Oklahoma Tribal Statistical Areas Labels&amp;&amp;STYLES=default,default, default,default, default,default,default,default,default,default,default,default,default,default &amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326 &amp;BBOX=32.860571,-113.5097542,46.389131,-113.509754&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;LAYERS=Off-Reservation Trust Lands,Off-Reservation Trust Lands Labels,State American Indian Reservations,State American Indian Reservations Labels,Hawaiian Home Lands,Hawaiian Home Lands Labels,Alaska Native Village Statistical Areas,Alaska Native Village Statistical Areas Labels,Federal American Indian Reservations,Federal American Indian Reservations Labels,Tribal Subdivisions,Tribal Subdivisions Labels,Oklahoma Tribal Statistical Areas,Oklahoma Tribal Statistical Areas Labels&amp;&amp;STYLES=default,default, default,default, default,default,default,default,default,default,default,default,default,default &amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326 &amp;BBOX=32.860571,-113.5097542,46.389131,-113.509754&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -106,7 +106,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'CNECTA')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Combined New England City and Town Areas,Combined New England City and Town Areas Labels&amp;STYLES=default,default &amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326 &amp;BBOX= 40.143086,-74.815419,45.131168,-68.0292064&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Combined New England City and Town Areas,Combined New England City and Town Areas Labels&amp;STYLES=default,default &amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326 &amp;BBOX= 40.143086,-74.815419,45.131168,-68.0292064&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -116,7 +116,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'CSA')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Combined Statistical Areas,Combined Statistical Areas Labels&amp;STYLES=default, default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326 &amp;BBOX=32.860571,-114.5097542,46.389131,-110.509754&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Combined Statistical Areas,Combined Statistical Areas Labels&amp;STYLES=default, default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326 &amp;BBOX=32.860571,-114.5097542,46.389131,-110.509754&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -126,7 +126,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current County and Equivalent')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Counties,Counties Labels&amp;STYLES=default, default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326 &amp;BBOX=32.860571,-113.5097542,46.389131,-113.509754&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Counties,Counties Labels&amp;STYLES=default, default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326 &amp;BBOX=32.860571,-113.5097542,46.389131,-113.509754&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -136,7 +136,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current Metropolitan Division')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Metropolitan Divisions,Metropolitan Divisions Labels&amp;STYLES=default, default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326 &amp;BBOX=32.860571,-113.5097542,46.389131,-113.509754&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Metropolitan Divisions,Metropolitan Divisions Labels&amp;STYLES=default, default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326 &amp;BBOX=32.860571,-113.5097542,46.389131,-113.509754&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
                                 <xsl:element name="gmd:description">
@@ -145,7 +145,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'CBSA')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Metropolitan Statistical Areas,Metropolitan Statistical Areas Labels,Micropolitan Statistical Areas,Micropolitan Statistical Areas Labels&amp;STYLES=default,default,default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=32.860571,-113.5097542,46.389131,-113.509754&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Metropolitan Statistical Areas,Metropolitan Statistical Areas Labels,Micropolitan Statistical Areas,Micropolitan Statistical Areas Labels&amp;STYLES=default,default,default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=32.860571,-113.5097542,46.389131,-113.509754&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -155,7 +155,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'NECTA Division')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=New England City and Town Area Divisions,New England City and Town Area  Divisions Labels&amp;STYLES=default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=32.860571,-113.5097542,46.389131,-113.509754&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=New England City and Town Area Divisions,New England City and Town Area  Divisions Labels&amp;STYLES=default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=32.860571,-113.5097542,46.389131,-113.509754&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -165,7 +165,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'State and Equivalent')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=States,States Labels&amp;STYLES=default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=41.187053,-72.508142,42.88679,-69.858861&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=States,States Labels&amp;STYLES=default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=41.187053,-72.508142,42.88679,-69.858861&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -175,7 +175,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current Tribal Block Group')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Tribal Block Groups,Tribal Block Groups Labels&amp;STYLES=default, default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326 &amp;BBOX=25.467847,-136.541802,57.054448,-62.039082&amp;WIDTH=1090&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Tribal Block Groups,Tribal Block Groups Labels&amp;STYLES=default, default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326 &amp;BBOX=25.467847,-136.541802,57.054448,-62.039082&amp;WIDTH=1090&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -185,7 +185,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current Tribal Census Tract')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Tribal Census Tracts,Tribal Census Tracts Labels&amp;STYLES=default, default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326 &amp;BBOX= 32.501202,-112.203736,33.466104,-110.448354&amp;WIDTH=1090&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Tribal Census Tracts,Tribal Census Tracts Labels&amp;STYLES=default, default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326 &amp;BBOX= 32.501202,-112.203736,33.466104,-110.448354&amp;WIDTH=1090&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -195,7 +195,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'ANRC')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Alaska Native Regional Corporations,Alaska Native Regional Corporations Labels&amp;STYLES=default, default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326 &amp;BBOX=51.175092,-179.231086,71.441059,179.859681&amp;WIDTH=1090&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Alaska Native Regional Corporations,Alaska Native Regional Corporations Labels&amp;STYLES=default, default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326 &amp;BBOX=51.175092,-179.231086,71.441059,179.859681&amp;WIDTH=1090&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -205,7 +205,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Census  Urban Area')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=2010 Census Urban Clusters,2010 Census Urban Clusters Labels&amp;STYLES=default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=-14.874757, -171.060408, 71.465321, 146.356228&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=2010 Census Urban Clusters,2010 Census Urban Clusters Labels&amp;STYLES=default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=-14.874757, -171.060408, 71.465321, 146.356228&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -215,7 +215,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'ZCTA5')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=2010 Census ZIP Code Tabulation Areas&amp;STYLES=&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:3857 &amp;BBOX=-11679625.942909468,4709198.547476525,-11645573.246808422,4737900.651597611&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=2010 Census ZIP Code Tabulation Areas&amp;STYLES=&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:3857 &amp;BBOX=-11679625.942909468,4709198.547476525,-11645573.246808422,4737900.651597611&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -225,7 +225,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'NECTA')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Micropolitan New England City and Town Areas,Micropolitan New England City and Town Areas Labels,Metropolitan New England City and Town Areas,Metropolitan New England City and Town Areas Labels&amp;STYLES=default,default,default,default &amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=32.860571,-113.5097542,46.389131,-113.509754&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Micropolitan New England City and Town Areas,Micropolitan New England City and Town Areas Labels,Metropolitan New England City and Town Areas,Metropolitan New England City and Town Areas Labels&amp;STYLES=default,default,default,default &amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=32.860571,-113.5097542,46.389131,-113.509754&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -235,7 +235,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'PUMA')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=2010 Census Public Use Microdata Areas,2010 Census Public Use Microdata Areas Labels&amp;STYLES=default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=-14.874757,-171.060408,71.465321,146.356228&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=2010 Census Public Use Microdata Areas,2010 Census Public Use Microdata Areas Labels&amp;STYLES=default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=-14.874757,-171.060408,71.465321,146.356228&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -245,7 +245,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current Block Group')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Census Block Groups,Census Block Groups Labels&amp;STYLES=default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=-14.874757,-171.060408,71.465321,146.356228&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Census Block Groups,Census Block Groups Labels&amp;STYLES=default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=-14.874757,-171.060408,71.465321,146.356228&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -255,7 +255,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current Census Tract')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Census Tracts,Census Tracts Labels&amp;STYLES=default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=-14.874757,-171.060408,71.465321,146.356228&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Census Tracts,Census Tracts Labels&amp;STYLES=default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=-14.874757,-171.060408,71.465321,146.356228&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -265,7 +265,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current County Subdivision')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=County Subdivisions,County Subdivisions Labels&amp;STYLES=default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=-14.874757,-171.060408,71.465321,146.356228&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=County Subdivisions,County Subdivisions Labels&amp;STYLES=default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=-14.874757,-171.060408,71.465321,146.356228&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -275,7 +275,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current Place')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Census Designated Places,Census Designated Places Labels,Incorporated Places,Incorporated Places Labels&amp;STYLES=default,default,default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=-14.874757,-171.060408,71.465321,146.356228&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0 &amp;LAYERS=Census Designated Places,Census Designated Places Labels,Incorporated Places,Incorporated Places Labels&amp;STYLES=default,default,default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=-14.874757,-171.060408,71.465321,146.356228&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -285,7 +285,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'State Legislative District (SLD) Lower Chamber')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;LAYERS=2014 State Legislative Districts - Lower,2014 State Legislative Districts - Lower Labels&amp;STYLES=default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=-14.874757,-171.060408,71.465321,146.356228&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;LAYERS=2014 State Legislative Districts - Lower,2014 State Legislative Districts - Lower Labels&amp;STYLES=default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=-14.874757,-171.060408,71.465321,146.356228&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -295,7 +295,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current State Legislative District (SLD) Upper Chamber')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;LAYERS=2014 State Legislative Districts - Upper,2014 State Legislative Districts - Upper Labels&amp;STYLES=default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=-14.874757,-171.060408,71.465321,146.356228&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;LAYERS=2014 State Legislative Districts - Upper,2014 State Legislative Districts - Upper Labels&amp;STYLES=default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=-14.874757,-171.060408,71.465321,146.356228&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -305,7 +305,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current Unified School Districts')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;LAYERS=Unified School Districts,Unified School Districts Labels&amp;STYLES=default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=-14.874757,-171.060408,71.465321,146.356228&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;LAYERS=Unified School Districts,Unified School Districts Labels&amp;STYLES=default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=-14.874757,-171.060408,71.465321,146.356228&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                 <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -315,7 +315,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current Subbarrio')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;LAYERS=Subbarrios,Subbarrios Labels&amp;STYLES=default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=18.3366,-64.9147,18.3539,-64.8332&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;LAYERS=Subbarrios,Subbarrios Labels&amp;STYLES=default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=18.3366,-64.9147,18.3539,-64.8332&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                <xsl:call-template name="tigerWMS_CurrentWMS"/>
@@ -325,7 +325,7 @@
                             </xsl:when>
                             <xsl:when test="contains($theme,'Current Estate')">
                                 <xsl:element name="gmd:linkage">
-                                    <xsl:element name="gmd:URL">http://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WmsServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;LAYERS=Estates,Estates Labels&amp;STYLES=default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=-14.874757,-171.060408,71.465321,146.356228&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
+                                    <xsl:element name="gmd:URL">https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;LAYERS=Estates,Estates Labels&amp;STYLES=default,default&amp;FORMAT=image/svg+xml&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;CRS=EPSG:4326&amp;BBOX=-14.874757,-171.060408,71.465321,146.356228&amp;WIDTH=891&amp;HEIGHT=751</xsl:element>
                                 </xsl:element>
                                 <xsl:call-template name="appProfileWMS"/>
                                  <xsl:call-template name="tigerWMS_CurrentWMS"/>

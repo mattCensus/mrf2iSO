@@ -370,7 +370,7 @@
             <xsl:element name="gmd:onLine">
                <xsl:element name="gmd:CI_OnlineResource">
                   <xsl:element name="gmd:linkage">
-                     <xsl:element name="gmd:URL">http://www.census.gov/geo/maps-data/data/tiger-line.html</xsl:element>
+                     <xsl:element name="gmd:URL">https://www.census.gov/geo/maps-data/data/tiger-line.html</xsl:element>
                   </xsl:element>
                   <xsl:element name="gmd:name">
                      <xsl:element name="gco:CharacterString">TIGER/Line&#174; Shapefiles</xsl:element>
