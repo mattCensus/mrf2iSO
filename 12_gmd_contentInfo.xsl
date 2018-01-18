@@ -64,6 +64,7 @@
                         MMC     5/4/2015         Updated for the year 2015
                         MMC     2/6/17           Updtated for the 2017
                         MMC     2/17/17          Updated so that the year harmonizes with the version of the Cartographic File
+                        MMC     1/18/18          Updated so that the year harmonizes with the version of the Cartographic File
                         </xd:p>
                 </xd:desc>
         </xd:doc>
@@ -133,7 +134,7 @@
                                                                   <xsl:variable name="nextPart">/GPMB/TIGERline/</xsl:variable>
                                                                   <!-- Change this every year!!!!!!!!!!!!!!!!!!!!!!!! -->
                                                                   <!-- tl_2013_09009_areawater.shp.xml -->
-                                                                  <xsl:variable name="folder">TIGER2017</xsl:variable>                                                       
+                                                                  <xsl:variable name="folder">TIGER2018</xsl:variable>                                                       
                                                                   <xsl:variable name="postUnder" select="substring-after($fileName,'_')"/>
                                                                   <xsl:variable name="year" select="substring-before($postUnder,'_')"/>
                                                                   <xsl:variable name="postUnder2" select="substring-after($postUnder,'_')"/>
@@ -157,9 +158,9 @@
                                                                   <xsl:variable name="nextPart">/CPMB/boundary/</xsl:variable>
                                                                   <!-- Change this every year!!!!!!!!!!!!!!!!!!!!!!!! -->
                                                                   <!-- cb_rd13_06_sldl_500k.xml -->
-                                                                  <xsl:variable name="folder">2016cb</xsl:variable>
+                                                                  <xsl:variable name="folder">2017cb</xsl:variable>
                                                                   <!-- Change this every year!!!!!!!!!!!!!!!!!!!!!!!! -->
-                                                                  <xsl:variable name="year">2016</xsl:variable>
+                                                                  <xsl:variable name="year">2017</xsl:variable>
                                                                   <xsl:variable name="postUnder" select="substring-after($fileName,'_')"/>
                                                                   <xsl:variable name="postUnder2" select="substring-after($postUnder,'_')"/>
                                                                   <xsl:variable name="postUnder3" select="substring-after($postUnder2,'_')"/>
