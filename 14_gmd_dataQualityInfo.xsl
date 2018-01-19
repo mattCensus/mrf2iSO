@@ -53,7 +53,8 @@
                                            the title of the data source title, source data, source contributor and the source contribution.
             MMC      3/1/2016             Modified to have a for each loop for the :DQ_AbsoluteExternalPositionalAccuracy element     
             MMC      2/6/17               Modifiied to eliminate the whitespace for the  gml:BaseUnit element 
-            MMC      2/15/17              Modified so that the gmd:evaluationMethodDescription appears for the CompletenessCommission  
+            MMC      2/15/17              Modified so that the gmd:evaluationMethodDescription appears for the CompletenessCommission
+            MMC      1/19/18              Modified so that the gmd:sourceExtent element appears. This is so that date ranges can appear.
             </xd:p>
       </xd:desc>
    </xd:doc>
@@ -120,7 +121,7 @@
 
                                  <xsl:element name="gmd:valueUnit">
                                        <xsl:variable name="AccValueA" select="./Horizontal_Positional_Accuracy_Value"/>
-                                    <xsl:variable name="AccValue" select="normalize-space(./Horizontal_Positional_Accuracy_Value)"></xsl:variable>
+                                    <xsl:variable name="AccValue" select="normalize-space(./Horizontal_Positional_Accuracy_Value)"/>
                                        <xsl:variable name="NumOfMeters" select="substring($AccValue,0,5)"/>
                                         <xsl:variable name="postFor" select="substring-after($AccValue,'for ')"/>
                                        <xsl:variable name="ComMeters" select="concat('Meters',$NumOfMeters,'for',$postFor)"/>
@@ -367,7 +368,11 @@
                                       
                                     </xsl:choose>
                                     
-                                     <xsl:element name="gmd:date">
+                                    <xsl:element name="gmd:date">
+                                       <xsl:attribute name="gco:nilReason">inapplicable</xsl:attribute>
+                                    </xsl:element> 
+                                    <xsl:comment>See the gmd:sourceExtent element below for the date range</xsl:comment>
+                                  <!--   <xsl:element name="gmd:date">
                                         <xsl:element name="gmd:CI_Date">
                                           <xsl:variable name="endDate" select="./Ending_Date"/>
                                           <xsl:choose>
@@ -399,9 +404,9 @@
                                           </xsl:element>
                                           
                                              </xsl:otherwise>
-                                          </xsl:choose>
+                                          </xsl:choose> 
                                          
-                                         
+                                   
 
                                         <xsl:element name="gmd:dateType">
                                               <xsl:element name="gmd:CI_DateTypeCode">
@@ -439,7 +444,7 @@
                                             </xsl:element>
                                           </xsl:element> 
                                        </xsl:element>
-                                    </xsl:element> 
+                                    </xsl:element> -->
                                     
                                     <xsl:element name="gmd:citedResponsibleParty">
                                        <xsl:element name="gmd:CI_ResponsibleParty">
@@ -464,6 +469,28 @@
                                 
                               </xsl:element>
                              
+                            
+                                  <xsl:element name="gmd:sourceExtent">
+                                     <xsl:element name="gmd:EX_Extent">
+                                        <xsl:element name="gmd:temporalElement">
+                                           <xsl:element name="gmd:EX_TemporalExtent">
+                                              <xsl:element name="gmd:extent">
+                                                 <xsl:element name="gml:TimePeriod">
+                                                    <xsl:variable name="Title" select="./Title[1]"/>
+                                                    <xsl:variable name="TitleB" select="substring($Title,0,5)"/>
+                                                    <xsl:variable name="begDate" select="./Beginning_Date[1]"></xsl:variable>
+                                                    <xsl:variable name="finalTitle" select="concat($TitleB,$begDate)"/>
+                                                    <xsl:variable name="timeId" select="substring($Title,0,5)"/>
+                                                    <xsl:attribute name="gml:id"><xsl:value-of select="$finalTitle"/></xsl:attribute>
+                                                    <xsl:element name="gml:beginPosition"><xsl:value-of select="$begDate"/></xsl:element>
+                                                    <xsl:element name="gml:endPosition"> <xsl:value-of select="./Ending_Date"/></xsl:element>
+                                                 </xsl:element>
+                                              </xsl:element>
+                                           </xsl:element>
+                                        </xsl:element>
+                                     </xsl:element>
+                                  </xsl:element>
+        
                            </xsl:element>
                            
                         </xsl:element>

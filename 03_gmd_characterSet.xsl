@@ -28,6 +28,7 @@
                 Initial   Date      Change Request ID   Description
                 MMC      1/8/2014                       Modified to work on the MRF Format. 
                 MMC      6/17/2015                      Modified the codeListValue from 8859part1 to utf8
+                MMC      1/19/18                        Created the gmd_characterSetMeta template so that the codespace could appear         
             </xd:p>
         </xd:desc>
     </xd:doc>
@@ -216,7 +217,7 @@
     
     <xsl:template name="gmd_characterSetMeta">
          <xsl:variable name="CharSet" select="/MRF/Metadata_Reference_Information/Metadata_Character_Set"/>
-            <xsl:comment> CharSet <xsl:value-of select="$CharSet"/></xsl:comment>
+           <!--  <xsl:comment> CharSet <xsl:value-of select="$CharSet"/></xsl:comment> -->
         <xsl:choose>
            
             <xsl:when test="$CharSet = 'ucs2'">

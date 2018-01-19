@@ -22,6 +22,9 @@
             <xd:p>
                 Initial    Date          Description
                 MMC        6/20/2016     Updated the applicationProfile to http://www.geoplatform.gov/spec/esri-map-rest on the recomendation of the FGDC.
+                MMC        1/19/18        Fixed the URL for the CNECTA REST Service. Replaced
+                                          "https://tigerweb.geo.cRensus.gov/arcgis/rest/services/TIGERweb/CBSA/MapServer" with
+                                          "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/CBSA/MapServer"
             </xd:p>
         </xd:desc>
     </xd:doc>

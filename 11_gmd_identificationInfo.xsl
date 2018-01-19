@@ -68,6 +68,7 @@
             MMC       2/11/16      Added a call to the spatialResolution template to handle scale information for the cartographic files 
             MMC       6/13/2016    Modified to include the  Spatial Products Software Branch 
             MMC       6/20/17      Modified to produce NGDA Alternate Titles for NGDA datasets
+            MMC       1/19/        replaced the "http" with "https" in browse graphic 
          </xd:p>
       </xd:desc>
    </xd:doc>

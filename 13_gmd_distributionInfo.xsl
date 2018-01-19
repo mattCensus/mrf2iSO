@@ -22,7 +22,7 @@
    <xd:doc scope="stylesheet">
       <xd:p>mrf2ISO/13_gmd_distributionInfo.xsl</xd:p>
       <xd:p>called by the mrf2ISO/mrf2ISOMaster.xsl template</xd:p>
-      <xd:p>calls the following templates:
+      <xd:p>calls the followin/g templates:
          Template                                     Stylesheet/File
          MD_MediumFormatCode                          MD_MediumFormatCode.xsl
       </xd:p>
@@ -50,6 +50,7 @@
             MMC       6/13/2016      Modified to include the  Spatial Products Software Branch 
             MMC       2/8/2017       Modified to update the URLS for "https". Also corrected the puncuation for "HTML" and "HTTP"
             MMC       2/10/2017      Inserted the ascii code for ® (&#174;)
+            MMC/      1/19/2018      replaced "http://www.census.gov/geo/maps-data/data/tiger-line.html" with "https://www.census.gov/geo/maps-data/data/tiger-line.html"        
          </xd:p>
       </xd:desc>
    </xd:doc>
