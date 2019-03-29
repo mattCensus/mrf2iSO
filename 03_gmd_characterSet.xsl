@@ -34,7 +34,7 @@
     </xd:doc>
 
     <xsl:template name="gmd_characterSet">
-        <xsl:comment>In the gmd_characterSet template!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</xsl:comment>
+        <!--  <xsl:comment>In the gmd_characterSet template!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</xsl:comment>-->
          <xsl:variable name="CharSet" select="/MRF/Metadata_Reference_Information/Metadata_Character_Set"/>
          <xsl:comment> CharSet <xsl:value-of select="$CharSet"/></xsl:comment>             
         <xsl:choose>

@@ -158,9 +158,9 @@
                                                                   <xsl:variable name="nextPart">/CPMB/boundary/</xsl:variable>
                                                                   <!-- Change this every year!!!!!!!!!!!!!!!!!!!!!!!! -->
                                                                   <!-- cb_rd13_06_sldl_500k.xml -->
-                                                                  <xsl:variable name="folder">2017cb</xsl:variable>
+                                                                  <xsl:variable name="folder">2018cb</xsl:variable>
                                                                   <!-- Change this every year!!!!!!!!!!!!!!!!!!!!!!!! -->
-                                                                  <xsl:variable name="year">2017</xsl:variable>
+                                                                  <xsl:variable name="year">2018</xsl:variable>
                                                                   <xsl:variable name="postUnder" select="substring-after($fileName,'_')"/>
                                                                   <xsl:variable name="postUnder2" select="substring-after($postUnder,'_')"/>
                                                                   <xsl:variable name="postUnder3" select="substring-after($postUnder2,'_')"/>

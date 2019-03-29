@@ -55,6 +55,7 @@
             MMC      2/6/17               Modifiied to eliminate the whitespace for the  gml:BaseUnit element 
             MMC      2/15/17              Modified so that the gmd:evaluationMethodDescription appears for the CompletenessCommission
             MMC      1/19/18              Modified so that the gmd:sourceExtent element appears. This is so that date ranges can appear.
+            MMC      1/26/18              Modified with a choose and  an if structure so that both date range and single dates can be handled.
             </xd:p>
       </xd:desc>
    </xd:doc>
@@ -85,7 +86,7 @@
 
             <!-- /metadata/dataqual/posacc/horizpa -->
           <!--   <xsl:if test="/MRF/Data_Quality_Information/Horizontal_Positional_Accuracy_Report">--> 
-            <xsl:for-each select="/MRF/Data_Quality_Information[1]/Quantitative_Horizontal_Positional_Accuracy_Assessment">
+            <xsl:for-each select="/MRF/Data_Quality_Information[1]/Horizontal_Positional_Accuracy_Report">
               <!--      <xsl:comment>In the loop!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</xsl:comment>-->
                <xsl:element name="gmd:report">
                   <xsl:element name="gmd:DQ_AbsoluteExternalPositionalAccuracy">
@@ -326,6 +327,16 @@
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 
                    <xsl:for-each select="/MRF/Data_Quality_Information/Source_Information">
+                      
+                      <!-- for each variables   <xsl:value-of select="./Ending_Date"/> -->
+                      <xsl:variable name="begDate" select="./Beginning_Date"/>
+                      <xsl:variable name="endDate" select="./Ending_Date"/>
+                      
+                      <!--  <xsl:comment>
+                         beg date: <xsl:value-of select="$begDate"/>
+                         end date: <xsl:value-of select="$endDate"/>
+                         
+                      </xsl:comment>-->
                        <xsl:element name="gmd:source">
                                <xsl:element name="gmd:LI_Source">
 
@@ -368,13 +379,18 @@
                                       
                                     </xsl:choose>
                                     
+                                    <xsl:choose>
+                                       <xsl:when test="not($begDate =$endDate)">
+                                    
                                     <xsl:element name="gmd:date">
                                        <xsl:attribute name="gco:nilReason">inapplicable</xsl:attribute>
                                     </xsl:element> 
                                     <xsl:comment>See the gmd:sourceExtent element below for the date range</xsl:comment>
-                                  <!--   <xsl:element name="gmd:date">
+                                       </xsl:when>
+                                       <xsl:otherwise>
+                                  <xsl:element name="gmd:date">
                                         <xsl:element name="gmd:CI_Date">
-                                          <xsl:variable name="endDate" select="./Ending_Date"/>
+                                          <!--  <xsl:variable name="endDate" select="./Ending_Date"/>-->
                                           <xsl:choose>
                                              <xsl:when test="contains($endDate,'Unknown')">
                                                 <xsl:element name="gmd:date">
@@ -444,8 +460,10 @@
                                             </xsl:element>
                                           </xsl:element> 
                                        </xsl:element>
-                                    </xsl:element> -->
-                                    
+                                       </xsl:element> 
+                                       </xsl:otherwise>
+                                    </xsl:choose>
+                                   
                                     <xsl:element name="gmd:citedResponsibleParty">
                                        <xsl:element name="gmd:CI_ResponsibleParty">
                                           <xsl:element name="gmd:organisationName">
@@ -469,7 +487,7 @@
                                 
                               </xsl:element>
                              
-                            
+                                  <xsl:if test="not($begDate =$endDate)">
                                   <xsl:element name="gmd:sourceExtent">
                                      <xsl:element name="gmd:EX_Extent">
                                         <xsl:element name="gmd:temporalElement">
@@ -478,19 +496,19 @@
                                                  <xsl:element name="gml:TimePeriod">
                                                     <xsl:variable name="Title" select="./Title[1]"/>
                                                     <xsl:variable name="TitleB" select="substring($Title,0,5)"/>
-                                                    <xsl:variable name="begDate" select="./Beginning_Date[1]"></xsl:variable>
+                                                    
                                                     <xsl:variable name="finalTitle" select="concat($TitleB,$begDate)"/>
                                                     <xsl:variable name="timeId" select="substring($Title,0,5)"/>
                                                     <xsl:attribute name="gml:id"><xsl:value-of select="$finalTitle"/></xsl:attribute>
                                                     <xsl:element name="gml:beginPosition"><xsl:value-of select="$begDate"/></xsl:element>
-                                                    <xsl:element name="gml:endPosition"> <xsl:value-of select="./Ending_Date"/></xsl:element>
+                                                    <xsl:element name="gml:endPosition"> <xsl:value-of select="$endDate"/></xsl:element>
                                                  </xsl:element>
                                               </xsl:element>
                                            </xsl:element>
                                         </xsl:element>
                                      </xsl:element>
                                   </xsl:element>
-        
+                                  </xsl:if>
                            </xsl:element>
                            
                         </xsl:element>
