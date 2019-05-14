@@ -79,7 +79,7 @@
 
    <xsl:template name="identificationInfo" match="/">
       <xsl:text>&#10;</xsl:text>
-      <xsl:comment>This part represents Section 1 of the FGDC Metadata Standard </xsl:comment>
+      <xsl:comment>This part represents Section 1 of the FGDC Metadata Standard</xsl:comment>
       <xsl:text>&#10;</xsl:text>
       <xsl:element name="gmd:identificationInfo">
          <xsl:element name="gmd:MD_DataIdentification">
@@ -196,16 +196,20 @@
                </xsl:element>
                <!-- gmd:resourceMaintenance -->
             </xsl:if>
-
+              
+             <!-- <xsl:comment> PrE NGDA check!!!!!!!!!!!!!!!!!</xsl:comment> -->
             <xsl:variable name="NgdaCheck" select="/MRF/Identification_Information[1]/Keywords[1]/Theme[1]/Theme_Keyword_Thesaurus[1]"/>
-            <!--   <xsl:comment><xsl:value-of select="$NgdaCheck"/></xsl:comment>-->
+               <!-- <xsl:comment><xsl:value-of select="$NgdaCheck"/></xsl:comment>
+            CALL the graphic overview for all NGDA files -->
+            
             <xsl:if test="contains($NgdaCheck,'NGDA Portfolio Themes')">
                <xsl:call-template name="graphicOverview"/>
             </xsl:if>
-
+            <!--  <xsl:comment>Dealing with the NON NGDa keywords</xsl:comment>-->
             <xsl:call-template name="NonISOKeywords"/>
 
-        <!--      <xsl:call-template name="NGDAThemes"/>-->
+        <!--      <xsl:call-template name="NGDAThemes"/>
+        <xsl:comment>Done with the keywords</xsl:comment>-->
 
             <xsl:element name="gmd:resourceConstraints">
                <xsl:element name="gmd:MD_LegalConstraints">
@@ -281,7 +285,7 @@
             <!-- language -->
 
             <xsl:call-template name="Metadata_Character_Set"/>
-            <!-- <xsl:comment> calling the ISO template </xsl:comment> -->
+           <!--   <xsl:comment> calling the ISO template </xsl:comment>-->
             <xsl:call-template name="ISO_TopicCategories"/>
             
             

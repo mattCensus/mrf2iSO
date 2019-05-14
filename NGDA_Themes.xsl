@@ -24,7 +24,7 @@
         <xsl:variable name="FileName" select="/MRF/Metadata_Reference_Information/Metadata_File_Identifier"/>
 
 <xsl:if test="contains($FileName,'tl_')">
-        <!--<xsl:comment>In the ngda template!!!!!!!!!!!!!!!!</xsl:comment> -->
+        <xsl:comment>In the ngda template!!!!!!!!!!!!!!!!</xsl:comment>
         <!--<xsl:comment>containsFaces <xsl:value-of select="$ContainsFaces"/></xsl:comment> -->
         <!--  <xsl:for-each select="/MRF/Identification_Information/Keywords/Theme_ISO/Theme_Keywordd"> -->
         <xsl:for-each select="/MRF/Identification_Information/Keywords/Theme_ISO/Theme_Keyword">
@@ -431,7 +431,7 @@
                 <xsl:element name="gmd:date">
                     <xsl:element name="gmd:CI_Date">
                         <xsl:element name="gmd:date">
-                            <xsl:element name="gco:Date">2010-02-01</xsl:element>
+                            <xsl:element name="gco:Date">2017-03-24</xsl:element>
                         </xsl:element>
 
                         <xsl:element name="gmd:dateType">
@@ -448,7 +448,7 @@
                 </xsl:element>
 
                 <xsl:element name="gmd:otherCitationDetails">
-                    <xsl:element name="gco:CharacterString">http://www.fgdc.gov/initiatives/resources/2013-2-1-ngda-data-themes-fgdc-sc-revised.pdf</xsl:element>
+                    <xsl:element name="gco:CharacterString">https://www.fgdc.gov/policyandplanning/a-16/appendixe/20170324-ngda-themes-fgdc-sc-revised-appendixe.pdf</xsl:element>
                 </xsl:element>
 
             </xsl:element>

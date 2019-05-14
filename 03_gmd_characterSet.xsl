@@ -63,7 +63,7 @@
     </xsl:template>
     
     <xsl:template name="Metadata_Character_Set">
-        <xsl:comment>In the Metadata_Character_Set template!!!!!!!!!!!!!!!!!!!!!!!!!!</xsl:comment>
+       <!-- <xsl:comment>In the Metadata_Character_Set template!!!!!!!!!!!!!!!!!!!!!!!!!!</xsl:comment> -->
         <xsl:choose>
             <xsl:when test="/MRF/Identification_Information/Data_Set_Character_Set">
                 <xsl:element name="gmd:characterSet">

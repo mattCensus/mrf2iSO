@@ -53,7 +53,7 @@
          <xsl:variable name="ThemeKey" select="."/>
 
 
-         <!-- <xsl:comment> ThemeKey = <xsl:value-of select="$ThemeKey"/></xsl:comment> -->
+         <xsl:comment> ThemeKey = <xsl:value-of select="$ThemeKey"/></xsl:comment>
 
          <!-- <comment> BoundCheck = <xsl:value-of select="$BoundCheck"/> 
 </xsl:comment> -->

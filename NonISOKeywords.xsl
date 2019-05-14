@@ -41,13 +41,14 @@
  <xsl:variable name="MetDate" select="//metadata/metainfo/metd"/>
 
  <xsl:template name="NonISOKeywords">
+  <!-- <xsl:comment>In the non iso keywords template</xsl:comment> -->
   <xsl:call-template name="NonThemeISOKeywords"/>
   <xsl:call-template name="PlaceKeywords"/>
   <xsl:call-template name="Place_INCITSB"/>
  </xsl:template>
 
  <xsl:template name="NonThemeISOKeywords">
-
+  <!--  <xsl:comment>In the NonThemeISOKeywords Template</xsl:comment>-->
   <xsl:variable name="CodeListLoc">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode</xsl:variable>
   <xsl:variable name="NonISOKeywordsTheme"  select="/MRF/Identification_Information/Keywords/Theme/Theme_Keyword_Thesaurus"/>
 
@@ -65,7 +66,7 @@
    <xsl:element name="gmd:descriptiveKeywords">
     <xsl:element name="gmd:MD_Keywords">
 
-   <!--    <xsl:comment>before the keyword</xsl:comment>-->
+      <!-- <xsl:comment>before the keyword</xsl:comment> -->
      <xsl:for-each select="./Theme_Keyword">
       <xsl:element name="gmd:keyword">
        <xsl:element name="gco:CharacterString">
