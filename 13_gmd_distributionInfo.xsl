@@ -50,7 +50,8 @@
             MMC       6/13/2016      Modified to include the  Spatial Products Software Branch 
             MMC       2/8/2017       Modified to update the URLS for "https". Also corrected the puncuation for "HTML" and "HTTP"
             MMC       2/10/2017      Inserted the ascii code for ® (&#174;)
-            MMC/      1/19/2018      replaced "http://www.census.gov/geo/maps-data/data/tiger-line.html" with "https://www.census.gov/geo/maps-data/data/tiger-line.html"        
+            MMC/      1/19/2018      replaced "http://www.census.gov/geo/maps-data/data/tiger-line.html" with "https://www.census.gov/geo/maps-data/data/tiger-line.html"
+            MMC       5/23/19        replaced "https://www.census.gov/geo/maps-data/data/tiger-line.html" with "https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html"
          </xd:p>
       </xd:desc>
    </xd:doc>
@@ -162,16 +163,10 @@
                
             </xsl:if>
             
-
-
             <xsl:element name="gmd:distributor">
                <xsl:element name="gmd:MD_Distributor">
-
-
                   <!--  <xsl:comment>calling the template</xsl:comment>--> 
                   <xsl:call-template name="distPointofContact"/>
-
-
                   <xsl:element name="gmd:distributionOrderProcess">
                      <!---<xsl:element name="gmd:MD_StandardOrderProcess"> -->
                      <xsl:element name="gmd:MD_StandardOrderProcess">
@@ -371,7 +366,7 @@
             <xsl:element name="gmd:onLine">
                <xsl:element name="gmd:CI_OnlineResource">
                   <xsl:element name="gmd:linkage">
-                     <xsl:element name="gmd:URL">https://www.census.gov/geo/maps-data/data/tiger-line.html</xsl:element>
+                     <xsl:element name="gmd:URL">https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html</xsl:element>
                   </xsl:element>
                   <xsl:element name="gmd:name">
                      <xsl:element name="gco:CharacterString">TIGER/Line&#174; Shapefiles</xsl:element>
