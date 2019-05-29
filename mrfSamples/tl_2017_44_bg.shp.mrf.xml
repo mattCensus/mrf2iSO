@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRF profile_type="vector">
+   <Identification_Information>
+      <Citation>
+         <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography 
+                    Division</Originator>
+         <Publication_Date>2017</Publication_Date>
+         <Title>TIGER/Line Shapefile, 2017,  state, Rhode Island, Current Block Group State-based</Title>
+         <Edition>2017</Edition>
+         <Geospatial_Data_Presentation_Form>vector digital data</Geospatial_Data_Presentation_Form>
+         <Online_Linkage>http://www2.census.gov/geo/tiger/TIGER2017/BG/tl_2017_44_bg.zip</Online_Linkage>
+      </Citation>
+      <Description>
+         <Abstract>The TIGER/Line shapefiles and related database files (.dbf) are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB).  The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line shapefile is designed to stand alone as an independent data set, or they can be combined to cover the entire nation.
+
+
+Block Groups (BGs) are clusters of blocks within the same census tract. Each census tract contains at least one BG, and BGs are uniquely numbered within census tracts.  BGs have a valid code range of 0 through 9. BGs have the same first digit of their 4-digit census block number from the same decennial census.  For example, tabulation blocks numbered 3001, 3002, 3003,.., 3999 within census tract 1210.02 are also within BG 3 within that census tract.  BGs coded 0 are intended to only include water area, no land area, and they are generally in territorial seas, coastal water, and Great Lakes water areas. Block groups generally contain  between 600 and 3,000 people.  A BG usually covers a contiguous area but never crosses county or census tract boundaries. They may, however, cross the boundaries of other geographic entities like county subdivisions, places, urban areas, voting districts, congressional districts, and American Indian / Alaska Native / Native Hawaiian areas. 
+
+
+The BG boundaries in this release are those that were delineated as part of the Census Bureau's Participant Statistical Areas Program (PSAP) for the 2010 Census.  
+</Abstract>
+         <Purpose>In order for others to use the information in the Census MAF/TIGER database in a geographic information system (GIS) or for other geographic applications, the Census Bureau releases to the public extracts of the database in the form of TIGER/Line Shapefiles.</Purpose>
+         <Subject_Entity>Rhode Island(44)</Subject_Entity>
+      </Description>
+      <Time_Period_of_Content>
+         <Beginning_Date>201606</Beginning_Date>
+         <Ending_Date>201705</Ending_Date>
+         <Currentness_Reference>publication date</Currentness_Reference>
+      </Time_Period_of_Content>
+      <Status>
+         <Progress>Complete</Progress>
+         <Maintenance_and_Update_Frequency>No changes or updates will be made to this version of the TIGER/Line Shapefiles.  Future releases of TIGER/Line Shapefiles will reflect updates made to the Census MAF/TIGER database.</Maintenance_and_Update_Frequency>
+      </Status>
+      <Spatial_Domain>
+         <West_Bounding_Coordinate>-71.907258</West_Bounding_Coordinate>
+         <East_Bounding_Coordinate>-71.088571</East_Bounding_Coordinate>
+         <North_Bounding_Coordinate>42.018799</North_Bounding_Coordinate>
+         <South_Bounding_Coordinate>41.095834</South_Bounding_Coordinate>
+      </Spatial_Domain>
+      <Keywords>
+         <Theme_ISO>
+            <Theme_Keyword_Thesaurus_ISO>ISO 19115 Topic Categories</Theme_Keyword_Thesaurus_ISO>
+            <Theme_Keyword>Boundaries</Theme_Keyword>
+         </Theme_ISO>
+         <Theme>
+            <Theme_Keyword_Thesaurus>NGDA Portfolio Themes</Theme_Keyword_Thesaurus>
+            <Theme_Keyword>NGDA</Theme_Keyword>
+            <Theme_Keyword>Governmental Units and Administrative and Statistical Boundaries Theme</Theme_Keyword>
+            <Theme_Keyword>National Geospatial Data Asset</Theme_Keyword>
+         </Theme>
+         <Theme>
+            <Theme_Keyword_Thesaurus>None</Theme_Keyword_Thesaurus>
+            <Theme_Keyword>State or equivalent entity</Theme_Keyword>
+            <Theme_Keyword>Polygon</Theme_Keyword>
+            <Theme_Keyword>Block Group</Theme_Keyword>
+            <Theme_Keyword>BG</Theme_Keyword>
+         </Theme>
+         <Place>
+            <Place_Keyword_Thesaurus>ANSI INCITS 38:2009 (Formerly FIPS 5-2), 
+                              ANSI INCITS 31:2009 (Formerly FIPS 6-4),ANSI 
+                              INCITS 454:2009 (Formerly FIPS 8-6), ANSI INCITS 
+                              455:2009(Formerly FIPS 9-1), ANSI INCITS 446:2008                           (Geographic Names Information System (GNIS))</Place_Keyword_Thesaurus>
+            <Place_Keyword>United States</Place_Keyword>
+            <Place_Keyword>U.S.</Place_Keyword>
+            <Place_Keyword>State or Equivalent Entity</Place_Keyword>
+            <Place_Keyword>Rhode Island</Place_Keyword>
+            <Place_Keyword>RI</Place_Keyword>
+            <Place_Keyword>44</Place_Keyword>
+         </Place>
+      </Keywords>
+      <Access_Constraints>None</Access_Constraints>
+      <Use_Constraints>The TIGER/Line Shapefile products are not copyrighted however TIGER/Line and Census TIGER are registered trademarks of the U.S. Census Bureau.  These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as the source.
+The boundary information in the TIGER/Line Shapefiles are for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.Coordinates in the TIGER/Line shapefiles have six implied decimal places, but the positional accuracy of these coordinates is not as great as the six decimal places suggest.</Use_Constraints>
+      <Title_13_Restrictions>Yes, the data are free from Title 13 restrictions</Title_13_Restrictions>
+      <Point_of_Contact>
+         <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, 
+                         Geography Division, Spatial Data Collection and Products Branch</Contact_Organization>
+         <Contact_Address>
+            <Address_Type>mailing</Address_Type>
+            <Address>4600 Silver Hill Road, Stop 7400</Address>
+            <City>Washington</City>
+            <State_or_Province>DC</State_or_Province>
+            <Postal_Code>20233-7400</Postal_Code>
+            <Country>United States</Country>
+         </Contact_Address>
+         <Contact_Voice_Telephone>301-763-1128</Contact_Voice_Telephone>
+         <Contact_Facsimile_Telephone>301-763-4710</Contact_Facsimile_Telephone>
+         <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+      </Point_of_Contact>
+      <Data_Set_Character_Set>UTF-8</Data_Set_Character_Set>
+      <Data_Set_Language>eng</Data_Set_Language>
+   </Identification_Information>
+   <Data_Quality_Information>
+      <Attribute_Accuracy_Report>Accurate against National Standard Codes, Federal Information Processing (FIPS) and the Geographic Names Information System (GNIS) at the 100% level for the codes and base names.  The remaining attribute information has been examined but has not been fully tested for accuracy.</Attribute_Accuracy_Report>
+      <Logical_Consistency_Report>The Census Bureau performed automated tests to ensure logical consistency and limits of shapefiles.  Segments making up the outer and inner boundaries of a polygon tie end-to-end to completely enclose the area.  All polygons are tested for closure.
+The Census Bureau uses its internally developed geographic update system to enhance and modify spatial and attribute data in the Census MAF/TIGER database.  Standard geographic codes, such as FIPS codes for states, counties, municipalities, county subdivisions, places, American Indian/Alaska Native/Native Hawaiian areas, and congressional districts are used when encoding spatial entities.  The Census Bureau performed spatial data tests for logical consistency of the codes during the compilation of the original Census MAF/TIGER database files.  Most of the codes for geographic entities except states, counties, urban areas, Core Based Statistical Areas (CBSAs), American Indian Areas (AIAs), and congressional districts were provided to the Census Bureau by the USGS, the agency responsible for maintaining the Geographic Names Information System (GNIS).  Feature attribute information has been examined but has not been fully tested for consistency.
+For the TIGER/Line Shapefiles, the Point and Vector Object Count for the G-polygon SDTS Point and Vector Object Type reflects the number of records in the shapefile attribute table.  For multi-polygon features, only one attribute record exists for each multi-polygon rather than one attribute record per individual G-polygon component of the multi-polygon feature.  TIGER/Line Shapefile multi-polygons are an exception to the G-polygon object type classification.  Therefore, when multi-polygons exist in a shapefile, the object count will be less than the actual number of G-polygons.</Logical_Consistency_Report>
+      <Completeness_Report>Data completeness of the TIGER/Line Shapefiles reflects the contents of the Census MAF/TIGER database at the time the TIGER/Line Shapefiles were created.</Completeness_Report>
+      <Source_Information>
+         <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Originator>
+         <Publication_Date>Unpublished material</Publication_Date>
+         <Title>Census MAF/TIGER database</Title>
+         <Type_of_Source_Media>online</Type_of_Source_Media>
+         <Beginning_Date>201606</Beginning_Date>
+         <Ending_Date>201705</Ending_Date>
+         <Source_Currentness_Reference>publication date</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>MAF/TIGER</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Process_Step>
+         <Process_Description>TIGER/Line Shapefiles are extracted from the Census MAF/TIGER database by nation, state, county, and entity.  Census MAF/TIGER data for all of the aforementioned geographic entities are then distributed among the shapefiles each containing attributes for line, polygon, or landmark geographic data. </Process_Description>
+         <Source_Used_Citation_Abbreviation>MAF/TIGER</Source_Used_Citation_Abbreviation>
+         <Process_Date>2017</Process_Date>
+      </Process_Step>
+   </Data_Quality_Information>
+   <Spatial_Data_Organization_Information>
+      <Indirect_Spatial_Reference>Federal Information Processing Series (FIPS), Geographic Names Information System (GNIS), and feature names.</Indirect_Spatial_Reference>
+      <Direct_Spatial_Reference_Method>Vector</Direct_Spatial_Reference_Method>
+      <SDTS_Terms_Description>
+         <SDTS_Point_and_Vector_Object_Type>G-polygon</SDTS_Point_and_Vector_Object_Type>
+         <Point_and_Vector_Object_Count>815</Point_and_Vector_Object_Count>
+      </SDTS_Terms_Description>
+   </Spatial_Data_Organization_Information>
+   <Spatial_Reference_Information>
+      <Horizontal_Coordinate_System_Definition>
+         <Geographic>
+            <Latitude_Resolution>0.000458</Latitude_Resolution>
+            <Longitude_Resolution>0.000458</Longitude_Resolution>
+            <Geographic_Coordinate_Units>Decimal degrees</Geographic_Coordinate_Units>
+         </Geographic>
+         <Geodetic_Model>
+            <Horizontal_Datum_Name>North American Datum of 1983</Horizontal_Datum_Name>
+            <Ellipsoid_Name>Geodetic Reference System 80</Ellipsoid_Name>
+            <Semi-Major_Axis>6378137</Semi-Major_Axis>
+            <Denominator_of_Flattening_Ratio>298.257</Denominator_of_Flattening_Ratio>
+         </Geodetic_Model>
+      </Horizontal_Coordinate_System_Definition>
+   </Spatial_Reference_Information>
+   <Entity_and_Attribute_Information>
+      <Detailed_Description>
+         <Entity_Type>
+            <Entity_Type_Label>BG.shp</Entity_Type_Label>
+            <Entity_Type_Definition>Current Block Group State-based</Entity_Type_Definition>
+            <Entity_Type_Definition_Source>U.S. Census Bureau</Entity_Type_Definition_Source>
+         </Entity_Type>
+         <Attribute>
+            <Attribute_Label>STATEFP</Attribute_Label>
+            <Attribute_Definition>Current state Federal Information Processing Series (FIPS) code</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Codeset_Domain>
+                  <Codeset_Name>National Standard Codes (ANSI INCITS 38-2009), Federal Information Processing Series (FIPS) - States/State Equivalents</Codeset_Name>
+                  <Codeset_Source>U.S. Census Bureau</Codeset_Source>
+               </Codeset_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>COUNTYFP</Attribute_Label>
+            <Attribute_Definition>Current county Federal Information Processing Series (FIPS) code</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Codeset_Domain>
+                  <Codeset_Name>National Standard Codes (ANSI INCITS 31-2009), Federal Information Processing Series (FIPS) - Counties/County Equivalents</Codeset_Name>
+                  <Codeset_Source>U.S. Census Bureau</Codeset_Source>
+               </Codeset_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>TRACTCE</Attribute_Label>
+            <Attribute_Definition>Current census tract code</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>000100 to 998999</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Census tract number</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>990000 to 990099</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Water tract (2010 and continuing)</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>990100 to 998999</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Census tract number</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>BLKGRPCE</Attribute_Label>
+            <Attribute_Definition>Current block group number. A block group number of 0 represents a water block group.</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Range_Domain>
+                  <Range_Domain_Minimum>0</Range_Domain_Minimum>
+                  <Range_Domain_Maximum>9</Range_Domain_Maximum>
+               </Range_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>GEOID</Attribute_Label>
+            <Attribute_Definition>Census block group identifier; a concatenation of the current state Federal Information Processing Series (FIPS) code, county FIPS code, census tract code, and block group number</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Unrepresentable_Domain>The GEOID attribute is a concatenation of the state FIPS code, followed by the county FIPS code, followed by the census tract code, followed by the block group number. No spaces are allowed between the two codes. The State FIPS code is taken from "National Standard Codes (ANSI INCITS 38-2009), Federal Information Processing Series (FIPS) - States". The county FIPS code is taken from "National Standard Codes (ANSI INCITS 31-2009), Federal Information Processing Series (FIPS) - Counties/County Equivalents". The census tract code is taken from the "TRACTCE" attribute. The block group number is taken from the "BLKGRPCE" attribute.</Unrepresentable_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>NAMELSAD</Attribute_Label>
+            <Attribute_Definition>Current translated legal/statistical area description and the block group number</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Unrepresentable_Domain>Refer to the block group number that appears in BLKGRPCE and translated legal/statistical area description code BG, Block Group</Unrepresentable_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>MTFCC</Attribute_Label>
+            <Attribute_Definition>MAF/TIGER feature class code</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>G5030</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Block Group</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>FUNCSTAT</Attribute_Label>
+            <Attribute_Definition>Current functional status</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>S</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Statistical entity</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>ALAND</Attribute_Label>
+            <Attribute_Definition>Current land area (square meters)</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Range_Domain>
+                  <Range_Domain_Minimum>0</Range_Domain_Minimum>
+                  <Range_Domain_Maximum>9,999,999,999,999</Range_Domain_Maximum>
+               </Range_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>AWATER</Attribute_Label>
+            <Attribute_Definition>Current water area (square meters)</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Range_Domain>
+                  <Range_Domain_Minimum>0</Range_Domain_Minimum>
+                  <Range_Domain_Maximum>9,999,999,999,999</Range_Domain_Maximum>
+               </Range_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>INTPTLAT</Attribute_Label>
+            <Attribute_Definition>Current latitude of the internal point</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Range_Domain>
+                  <Range_Domain_Minimum>-90.000000</Range_Domain_Minimum>
+                  <Range_Domain_Maximum>90.000000</Range_Domain_Maximum>
+               </Range_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>INTPTLON</Attribute_Label>
+            <Attribute_Definition>Current longitude of the internal point</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Range_Domain>
+                  <Range_Domain_Minimum>-180.000000</Range_Domain_Minimum>
+                  <Range_Domain_Maximum>180.000000</Range_Domain_Maximum>
+               </Range_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+      </Detailed_Description>
+   </Entity_and_Attribute_Information>
+   <Distribution_Information>
+      <Distributor>
+         <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Spatial Data Collection and Products Branch</Contact_Organization>
+         <Contact_Address>
+            <Address_Type>mailing</Address_Type>
+            <Address>4600 Silver Hill Road, Stop 7400</Address>
+            <City>Washington</City>
+            <State_or_Province>DC</State_or_Province>
+            <Postal_Code>20233-7400</Postal_Code>
+            <Country>United States</Country>
+         </Contact_Address>
+         <Contact_Voice_Telephone>301-763-1128</Contact_Voice_Telephone>
+         <Contact_Facsimile_Telephone>301-763-4710</Contact_Facsimile_Telephone>
+         <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+      </Distributor>
+      <Distribution_Liability>No warranty, expressed or implied is made with regard to the accuracy of these data, and no liability is assumed by the U.S. Government in general or the U.S. Census Bureau in specific as to the spatial or attribute accuracy of the data.  The act of distribution shall not constitute any such warranty and no responsibility is assumed by the U.S. government in the use of these files.  The boundary information in the TIGER/Line Shapefiles is for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes do not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.</Distribution_Liability>
+      <Standard_Order_Process>
+         <Digital_Form>
+            <Format_Name>TGRSHP (compressed)</Format_Name>
+            <File_Decompression_Technique>PK-ZIP, version 1.93 A or higher</File_Decompression_Technique>
+            <Digital_Transfer_Option>
+               <Network_Resource_Name>http://www2.census.gov/geo/tiger/TIGER2017/BG/tl_2017_44_bg.zip</Network_Resource_Name>
+            </Digital_Transfer_Option>
+         </Digital_Form>
+         <Fees>The online copy of the TIGER/Line Shapefiles may be accessed without charge.</Fees>
+         <Ordering_Instructions>To obtain more information about ordering TIGER/Line Shapefiles visit http://www.census.gov/geo/www/tiger </Ordering_Instructions>
+      </Standard_Order_Process>
+      <Technical_Prerequisites>The TIGER/Line shapefiles contain geographic data only and do not include display mapping software or statistical data.  For information on how to use the TIGER/Line shapefile data with specific software package users shall contact the company that produced the software.</Technical_Prerequisites>
+   </Distribution_Information>
+   <Metadata_Reference_Information>
+      <Metadata_Date>20170601</Metadata_Date>
+      <Metadata_Contact>
+         <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Spatial Data Collection and Products Branch</Contact_Organization>
+         <Contact_Address>
+            <Address_Type>mailing</Address_Type>
+            <Address>4600 Silver Hill Road, Stop 7400</Address>
+            <City>Washington</City>
+            <State_or_Province>DC</State_or_Province>
+            <Postal_Code>20233-7400</Postal_Code>
+            <Country>United States</Country>
+         </Contact_Address>
+         <Contact_Voice_Telephone>301-763-1128</Contact_Voice_Telephone>
+         <Contact_Facsimile_Telephone>301-763-4710</Contact_Facsimile_Telephone>
+         <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+      </Metadata_Contact>
+      <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial Metadata</Metadata_Standard_Name>
+      <Metadata_Standard_Version>FGDC-STD-001-1998</Metadata_Standard_Version>
+      <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
+      <Metadata_File_Identifier>tl_2017_44_bg.shp.xml</Metadata_File_Identifier>
+      <Metadata_Language>eng</Metadata_Language>
+   </Metadata_Reference_Information>
+</MRF>

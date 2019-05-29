@@ -1,0 +1,311 @@
+
+<MRF xmlns:xsi="http://www.w3.org/20101/XMLSchema-instance" profile_type="vector">
+ <Identification_Information>
+  <Citation>
+   <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Cartographic Products and Services Branch</Originator>
+   <Publication_Date>201803</Publication_Date>
+   <Title>2017 Cartographic Boundary File, 2010 Urban Areas (UA) within 2010 County and Equivalent for Alabama, 1:500,000</Title>
+   <Geospatial_Data_Presentation_Form>vector digital data</Geospatial_Data_Presentation_Form>
+   <Series_Information>
+    <Series_Name>Cartographic Boundary Files</Series_Name>
+    <Issue_Identification>2017</Issue_Identification>
+   </Series_Information>
+   <Online_Linkage>https://www2.census.gov/geo/tiger/GENZ2017/shp/cb_2017_01_county_within_ua_500k.zip</Online_Linkage>
+  </Citation>
+  <Description>
+   <Abstract>The 2017 cartographic boundary shapefiles are simplified representations of selected geographic areas from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). These boundary files are specifically designed for small-scale thematic mapping. When possible, generalization is performed with the intent to maintain the hierarchical relationships among geographies and to maintain the alignment of geographies within a file set for a given year. Geographic areas may not align with the same areas from another year. Some geographies are available as nation-based files while others are available only as state-based files.
+
+The records in this file allow users to map the parts of Urban Areas that overlap a particular county.
+
+After each decennial census, the Census Bureau delineates urban areas that represent densely developed territory, encompassing residential, commercial, and other nonresidential urban land uses. In general, this territory consists of areas of high population density and urban land use resulting in a representation of the ""urban footprint."" There are two types of urban areas: urbanized areas (UAs) that contain 50,000 or more people and urban clusters (UCs) that contain at least 2,500 people, but fewer than 50,000 people (except in the U.S. Virgin Islands and Guam which each contain urban clusters with populations greater than 50,000). Each urban area is identified by a 5-character numeric census code that may contain leading zeroes.
+
+The primary legal divisions of most states are termed counties. In Louisiana, these divisions are known as parishes. In Alaska, which has no counties, the equivalent entities are the organized boroughs, city and boroughs, municipalities, and for the unorganized area, census areas. The latter are delineated cooperatively for statistical purposes by the State of Alaska and the Census Bureau. In four states (Maryland, Missouri, Nevada, and Virginia), there are one or more incorporated places that are independent of any county organization and thus constitute primary divisions of their states. These incorporated places are known as independent cities and are treated as equivalent entities for purposes of data presentation. The District of Columbia and Guam have no primary divisions, and each area is considered an equivalent entity for purposes of data presentation. The Census Bureau treats the following entities as equivalents of counties for purposes of data presentation: Municipios in Puerto Rico, Districts and Islands in American Samoa, Municipalities in the Commonwealth of the Northern Mariana Islands, and Islands in the U.S. Virgin Islands. The entire area of the United States, Puerto Rico, and the Island Areas is covered by counties or equivalent entities.
+
+The generalized boundaries for counties and equivalent entities are as of January 1, 2010.</Abstract>
+   <Purpose>These files were specifically created to support small-scale thematic mapping. To improve the appearance of shapes at small scales, areas are represented with fewer vertices than detailed TIGER/Line Shapefiles. Cartographic boundary files take up less disk space than their ungeneralized counterparts. Cartographic boundary files take less time to render on screen than TIGER/Line Shapefiles. You can join this file with table data downloaded from American FactFinder by using the AFFGEOID field in the cartographic boundary file. If detailed boundaries are required, please use the TIGER/Line Shapefiles instead of the generalized cartographic boundary files.</Purpose>
+   <Subject_Entity>Alabama</Subject_Entity>
+  </Description>
+  <Time_Period_of_Content>
+   <Beginning_Date>201803</Beginning_Date>
+   <Ending_Date>201803</Ending_Date>
+   <Currentness_Reference>publication date</Currentness_Reference>
+  </Time_Period_of_Content>
+  <Status>
+   <Progress>Complete</Progress>
+   <Maintenance_and_Update_Frequency>None planned. No changes or updates will be made to this version of the cartographic boundary files. New versions of the cartographic boundary files will be produced on an annual release schedule. Types of geography released may vary from year to year.</Maintenance_and_Update_Frequency>
+  </Status>
+  <Spatial_Domain>
+   <West_Bounding_Coordinate>-88.473227</West_Bounding_Coordinate>
+   <East_Bounding_Coordinate>-84.88908</East_Bounding_Coordinate>
+   <North_Bounding_Coordinate>35.008028</North_Bounding_Coordinate>
+   <South_Bounding_Coordinate>30.223334</South_Bounding_Coordinate>
+  </Spatial_Domain>
+  <Keywords>
+   <Theme>
+    <Theme_Keyword_Thesaurus>ISO 19115 Topic Categories</Theme_Keyword_Thesaurus>
+    <Theme_Keyword>Boundaries</Theme_Keyword>
+   </Theme>
+   <Theme>
+    <Theme_Keyword_Thesaurus>None</Theme_Keyword_Thesaurus>
+    <Theme_Keyword>2017</Theme_Keyword>
+    <Theme_Keyword>SHP</Theme_Keyword>
+    <Theme_Keyword>Borough</Theme_Keyword>
+    <Theme_Keyword>Cartographic Boundary</Theme_Keyword>
+    <Theme_Keyword>Census Area</Theme_Keyword>
+    <Theme_Keyword>City</Theme_Keyword>
+    <Theme_Keyword>City and Borough</Theme_Keyword>
+    <Theme_Keyword>County</Theme_Keyword>
+    <Theme_Keyword>County equivalent</Theme_Keyword>
+    <Theme_Keyword>District</Theme_Keyword>
+    <Theme_Keyword>Generalized</Theme_Keyword>
+    <Theme_Keyword>Independent City</Theme_Keyword>
+    <Theme_Keyword>Island</Theme_Keyword>
+    <Theme_Keyword>Municipality</Theme_Keyword>
+    <Theme_Keyword>Municipio</Theme_Keyword>
+    <Theme_Keyword>Parish</Theme_Keyword>
+    <Theme_Keyword>State</Theme_Keyword>
+    <Theme_Keyword>UA</Theme_Keyword>
+    <Theme_Keyword>UC</Theme_Keyword>
+    <Theme_Keyword>Urban Area</Theme_Keyword>
+    <Theme_Keyword>Urban Cluster</Theme_Keyword>
+    <Theme_Keyword>Urbanized Area</Theme_Keyword>
+   </Theme>
+   <Place>
+    <Place_Keyword_Thesaurus>National Standard Codes (ANSI INCITS 38-2009), Federal Information Processing Series (FIPS) - States/State Equivalents</Place_Keyword_Thesaurus>
+    <Place_Keyword>Alabama</Place_Keyword>
+    <Place_Keyword>AL</Place_Keyword>
+   </Place>
+  </Keywords>
+  <Access_Constraints>None</Access_Constraints>
+  <Use_Constraints>The intended display scale for this file is 1:500,000. This file should not be displayed at scales larger than 1:500,000.
+
+These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as the source. The boundary information is for visual display at appropriate small scales only. Cartographic boundary files should not be used for geographic analysis including area or perimeter calculation. Files should not be used for geocoding addresses. Files should not be used for determining precise geographic area relationships.
+</Use_Constraints>
+  <Title_13_Restrictions>Yes, the data are free from Title 13 restrictions.</Title_13_Restrictions>
+  <Point_of_Contact>
+   <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Customer Services Branch</Contact_Organization>
+   <Contact_Address>
+    <Address_Type>mailing</Address_Type>
+    <Address>4600 Silver Hill Road</Address>
+    <City>Washington</City>
+    <State_or_Province>DC</State_or_Province>
+    <Postal_Code>20233-7400</Postal_Code>
+    <Country>United States</Country>
+   </Contact_Address>
+   <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+   <Contact_Facsimile_Telephone>301.763.4710</Contact_Facsimile_Telephone>
+   <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+  </Point_of_Contact>
+  <Data_Set_Character_Set>UTF-8</Data_Set_Character_Set>
+  <Data_Set_Language>eng</Data_Set_Language>
+ </Identification_Information>
+ <Data_Quality_Information>
+  <Attribute_Accuracy_Report>Accurate against American National Standards Institute (ANSI) Publication INCITS 446-2008 (Geographic Names Information System (GNIS)) at the 100% level for the codes and base names present in the file. The remaining attribute information has been examined but has not been fully tested for accuracy.</Attribute_Accuracy_Report>
+  <Logical_Consistency_Report>The Census Bureau performed automated tests to ensure logical consistency of the source database. Segments making up the outer and inner boundaries of a polygon tie end-to-end to completely enclose the area. All polygons were tested for closure. The Census Bureau uses its internally developed geographic update system to enhance and modify spatial and attribute data in the Census MAF/TIGER database. Standard geographic codes, such as INCITS (formerly FIPS) codes for states, counties, municipalities, county subdivisions, places, American Indian/Alaska Native/Native Hawaiian areas, and congressional districts are used when encoding spatial entities. The Census Bureau performed spatial data tests for logical consistency of the codes during the compilation of the original Census MAF/TIGER database files. Feature attribute information has been examined but has not been fully tested for consistency.
+
+For the cartographic boundary files, the Point and Vector Object Count for the G-polygon SDTS Point and Vector Object Type reflects the number of records in the file's data table. For multi-polygon features, only one attribute record exists for each multi-polygon rather than one attribute record per individual G-polygon component of the multi-polygon feature. Cartographic Boundary File multi-polygons are an exception to the G-polygon object type classification. Therefore, when multi-polygons exist in a file, the object count will be less than the actual number of G-polygons.</Logical_Consistency_Report>
+  <Completeness_Report>The cartographic boundary files are generalized representations of extracts taken from the MAF/TIGER Database. Generalized boundary files are clipped to a simplified version of the U.S. outline. As a result, some off-shore areas may be excluded from the generalized files. Some small geographic areas, holes, or discontiguous parts of areas may not be included in generalized files if they are not visible at the target scale.</Completeness_Report>
+  <Horizontal_Positional_Accuracy_Report>Data are not accurate. Data are generalized representations of geographic boundaries at 1:500,000.</Horizontal_Positional_Accuracy_Report>
+  <Source_Information>
+   <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Customer Services Branch</Originator>
+   <Publication_Date>Unpublished material</Publication_Date>
+   <Title>Census MAF/TIGER database</Title>
+   <Type_of_Source_Media>Geo-spatial Relational Database</Type_of_Source_Media>
+   <Beginning_Date>201706</Beginning_Date>
+   <Ending_Date>201705</Ending_Date>
+   <Source_Currentness_Reference>The dates describe the effective date of 2017 cartographic boundaries.</Source_Currentness_Reference>
+   <Source_Citation_Abbreviation>MAF/TIGER</Source_Citation_Abbreviation>
+   <Source_Contribution>All spatial and feature data</Source_Contribution>
+  </Source_Information>
+  <Process_Step>
+   <Process_Description>Spatial data were extracted from the MAF/TIGER database and processed through a U.S. Census Bureau batch generalization system.</Process_Description>
+   <Source_Used_Citation_Abbreviation>MAF/TIGER</Source_Used_Citation_Abbreviation>
+   <Process_Date>201803</Process_Date>
+  </Process_Step>
+ </Data_Quality_Information>
+ <Spatial_Data_Organization_Information>
+  <Indirect_Spatial_Reference>INCITS (formerly FIPS) codes</Indirect_Spatial_Reference>
+  <Direct_Spatial_Reference_Method>Vector</Direct_Spatial_Reference_Method>
+  <SDTS_Terms_Description>
+   <SDTS_Point_and_Vector_Object_Type>G-polygon</SDTS_Point_and_Vector_Object_Type>
+   <Point_and_Vector_Object_Count>98</Point_and_Vector_Object_Count>
+  </SDTS_Terms_Description>
+ </Spatial_Data_Organization_Information>
+ <Spatial_Reference_Information>
+  <Horizontal_Coordinate_System_Definition>
+   <Geographic>
+    <Latitude_Resolution>0.000458</Latitude_Resolution>
+    <Longitude_Resolution>0.000458</Longitude_Resolution>
+    <Geographic_Coordinate_Units>Decimal degrees</Geographic_Coordinate_Units>
+   </Geographic>
+   <Geodetic_Model>
+    <Horizontal_Datum_Name>North American Datum of 1983</Horizontal_Datum_Name>
+    <Ellipsoid_Name>Geodetic Reference System 80</Ellipsoid_Name>
+    <Semi-Major_Axis>6378137.000000</Semi-Major_Axis>
+    <Denominator_of_Flattening_Ratio>298.257222</Denominator_of_Flattening_Ratio>
+   </Geodetic_Model>
+  </Horizontal_Coordinate_System_Definition>
+ </Spatial_Reference_Information>
+ <Entity_and_Attribute_Information>
+  <Detailed_Description>
+   <Entity_Type>
+    <Entity_Type_Label>cb_2017_01_county_within_ua_500k.shp</Entity_Type_Label>
+    <Entity_Type_Definition>2010 Urban Areas (UA) within 2010 County and Equivalent (state-based)</Entity_Type_Definition>
+    <Entity_Type_Definition_Source>U.S. Census Bureau</Entity_Type_Definition_Source>
+   </Entity_Type>
+   <Attribute>
+    <Attribute_Label>STATEFP10</Attribute_Label>
+    <Attribute_Definition>2010 Census state Federal Information Processing Series (FIPS) code</Attribute_Definition>
+    <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+    <Attribute_Domain_Values>
+     <Codeset_Domain>
+      <Codeset_Name>National Standard Codes (ANSI INCITS 38-2009), Federal Information Processing Series (FIPS) - States/State Equivalents</Codeset_Name>
+      <Codeset_Source>U.S. Census Bureau</Codeset_Source>
+     </Codeset_Domain>
+    </Attribute_Domain_Values>
+   </Attribute>
+   <Attribute>
+    <Attribute_Label>COUNTYFP10</Attribute_Label>
+    <Attribute_Definition>2010 Census county Federal Information Processing Series (FIPS) code</Attribute_Definition>
+    <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+    <Attribute_Domain_Values>
+     <Codeset_Domain>
+      <Codeset_Name>National Standard Codes (ANSI INCITS 31-2009), Federal Information Processing Series (FIPS) - Counties/County Equivalents</Codeset_Name>
+      <Codeset_Source>U.S. Census Bureau</Codeset_Source>
+     </Codeset_Domain>
+    </Attribute_Domain_Values>
+   </Attribute>
+   <Attribute>
+    <Attribute_Label>UACE10</Attribute_Label>
+    <Attribute_Definition>2010 Census urban area code</Attribute_Definition>
+    <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+    <Attribute_Domain_Values>
+     <Range_Domain>
+      <Range_Domain_Minimum>00001</Range_Domain_Minimum>
+      <Range_Domain_Maximum>98999</Range_Domain_Maximum>
+     </Range_Domain>
+    </Attribute_Domain_Values>
+   </Attribute>
+   <Attribute>
+    <Attribute_Label>AFFGEOID10</Attribute_Label>
+    <Attribute_Definition>American FactFinder summary level code + geovariant code + '00US' + GEOID</Attribute_Definition>
+    <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+    <Attribute_Domain_Values>
+     <Codeset_Domain>
+      <Codeset_Name>American FactFinder geographic identifier</Codeset_Name>
+      <Codeset_Source>U.S. Census Bureau</Codeset_Source>
+     </Codeset_Domain>
+    </Attribute_Domain_Values>
+   </Attribute>
+   <Attribute>
+    <Attribute_Label>GEOID10</Attribute_Label>
+    <Attribute_Definition>County within UA identifier; a concatenation of 2010 urban area code, state Federal Information Processing Series (FIPS) code and county FIPS code</Attribute_Definition>
+    <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+    <Attribute_Domain_Values>
+     <Unrepresentable_Domain>The GEOID10 attribute is a concatenation of: a) urban area code found in UACE10, b) state FIPS code, c) county FIPS code. No spaces are allowed between the codes. The urban area code is taken from the "UACE10" attribute. The state FIPS code is taken from "National Standard Codes (ANSI INCITS 38-2009), Federal Information Processing Series(FIPS) - States". The county FIPS code is taken from "National Standard Codes (ANSI INCITS 31-2009), Federal Information Processing Series (FIPS) - Counties/County Equivalents".</Unrepresentable_Domain>
+    </Attribute_Domain_Values>
+   </Attribute>
+   <Attribute>
+    <Attribute_Label>UATYP10</Attribute_Label>
+    <Attribute_Definition>2010 Census urban area type</Attribute_Definition>
+    <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+    <Attribute_Domain_Values>
+     <Enumerated_Domain>
+      <Enumerated_Domain_Value>C</Enumerated_Domain_Value>
+      <Enumerated_Domain_Value_Definition>Urban Cluster (suffix)</Enumerated_Domain_Value_Definition>
+      <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+     </Enumerated_Domain>
+    </Attribute_Domain_Values>
+    <Attribute_Domain_Values>
+     <Enumerated_Domain>
+      <Enumerated_Domain_Value>U</Enumerated_Domain_Value>
+      <Enumerated_Domain_Value_Definition>Urbanized Area (suffix)</Enumerated_Domain_Value_Definition>
+      <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+     </Enumerated_Domain>
+    </Attribute_Domain_Values>
+   </Attribute>
+   <Attribute>
+    <Attribute_Label>PARTFLG</Attribute_Label>
+    <Attribute_Definition>The part flag indicates whether the county is completely (N) or partially (Y) within the UA.</Attribute_Definition>
+    <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+    <Attribute_Domain_Values>
+     <Enumerated_Domain>
+      <Enumerated_Domain_Value>N</Enumerated_Domain_Value>
+      <Enumerated_Domain_Value_Definition>No</Enumerated_Domain_Value_Definition>
+      <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+     </Enumerated_Domain>
+    </Attribute_Domain_Values>
+    <Attribute_Domain_Values>
+     <Enumerated_Domain>
+      <Enumerated_Domain_Value>Y</Enumerated_Domain_Value>
+      <Enumerated_Domain_Value_Definition>Yes</Enumerated_Domain_Value_Definition>
+      <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+     </Enumerated_Domain>
+    </Attribute_Domain_Values>
+   </Attribute>
+   <Attribute>
+    <Attribute_Label>ALAND10</Attribute_Label>
+    <Attribute_Definition>2010 Census land area (square meters)</Attribute_Definition>
+    <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+    <Attribute_Domain_Values>
+     <Range_Domain>
+      <Range_Domain_Minimum>0</Range_Domain_Minimum>
+      <Range_Domain_Maximum>9,999,999,999,999</Range_Domain_Maximum>
+      <Attribute_Units_of_Measure>square meters</Attribute_Units_of_Measure>
+     </Range_Domain>
+    </Attribute_Domain_Values>
+   </Attribute>
+  </Detailed_Description>
+ </Entity_and_Attribute_Information>
+ <Distribution_Information>
+  <Distributor>
+   <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Customer Services Branch</Contact_Organization>
+   <Contact_Address>
+    <Address_Type>mailing</Address_Type>
+    <Address>4600 Silver Hill Road</Address>
+    <City>Washington</City>
+    <State_or_Province>DC</State_or_Province>
+    <Postal_Code>20233-7400</Postal_Code>
+    <Country>United States</Country>
+   </Contact_Address>
+   <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+   <Contact_Facsimile_Telephone>301.763.4710</Contact_Facsimile_Telephone>
+   <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+  </Distributor>
+  <Distribution_Liability>No warranty, expressed or implied is made with regard to the accuracy of these data, and no liability is assumed by the U.S. Government in general or the U.S. Census Bureau in specific as to the spatial or attribute accuracy of the data. The act of distribution shall not constitute any such warranty and no responsibility is assumed by the U.S. government in the use of these files. The boundary information is for small-scale mapping purposes only; boundary depiction and designation for small-scale mapping purposes do not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.</Distribution_Liability>
+  <Standard_Order_Process>
+   <Digital_Form>
+    <Format_Name>SHP</Format_Name>
+    <File_Decompression_Technique>PK-ZIP, version 1.93A or higher</File_Decompression_Technique>
+    <Digital_Transfer_Option>
+     <Network_Resource_Name>https://www2.census.gov/geo/tiger/GENZ2017/shp/cb_2017_01_county_within_ua_500k.zip</Network_Resource_Name>
+    </Digital_Transfer_Option>
+   </Digital_Form>
+   <Fees>The online cartographic boundary files may be downloaded without charge.</Fees>
+   <Ordering_Instructions>To obtain more information about ordering Cartographic Boundary Files visit https://www.census.gov/geo/www/tiger.</Ordering_Instructions>
+  </Standard_Order_Process>
+  <Technical_Prerequisites>The cartographic boundary files contain geographic data only and do not include display mapping software or statistical data. For information on how to use cartographic boundary file data with specific software package users shall contact the company that produced the software.</Technical_Prerequisites>
+ </Distribution_Information>
+ <Metadata_Reference_Information>
+  <Metadata_Date>201803</Metadata_Date>
+  <Metadata_Contact>
+   <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Customer Services Branch</Contact_Organization>
+   <Contact_Address>
+    <Address_Type>mailing</Address_Type>
+    <Address>4600 Silver Hill Road</Address>
+    <City>Washington</City>
+    <State_or_Province>DC</State_or_Province>
+    <Postal_Code>20233-7400</Postal_Code>
+    <Country>United States</Country>
+   </Contact_Address>
+   <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+   <Contact_Facsimile_Telephone>301.763.4710</Contact_Facsimile_Telephone>
+   <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+  </Metadata_Contact>
+  <Metadata_Standard_Name>Content Standard for Digital Geospatial Metadata</Metadata_Standard_Name>
+  <Metadata_Standard_Version>FGDC-STD-001-1998</Metadata_Standard_Version>
+  <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
+  <Metadata_File_Identifier>cb_2017_01_county_within_ua_500k.shp.xml</Metadata_File_Identifier>
+  <Metadata_Language>eng</Metadata_Language>
+ </Metadata_Reference_Information>
+</MRF>

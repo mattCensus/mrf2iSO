@@ -1,0 +1,2052 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MRF profile_type="edges">
+   <Identification_Information>
+      <Citation>
+         <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography 
+                    Division</Originator>
+         <Publication_Date>2017</Publication_Date>
+         <Title>TIGER/Line Shapefile, 2017,  county, Kent County, RI, All Lines County-based Shapefile</Title>
+         <Edition>2017</Edition>
+         <Geospatial_Data_Presentation_Form>vector digital data</Geospatial_Data_Presentation_Form>
+         <Online_Linkage>http://www2.census.gov/geo/tiger/TIGER2017/EDGES/tl_2017_44003_edges.zip</Online_Linkage>
+      </Citation>
+      <Description>
+         <Abstract>The TIGER/Line shapefiles and related database files (.dbf) are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB).  The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line shapefile is designed to stand alone as an independent data set, or they can be combined to cover the entire nation.
+
+
+Edge refers to the linear topological primitives that make up MTDB.  The All Lines Shapefile contains linear features such as roads, railroads, and hydrography.  Additional attribute data associated with the linear features found in the All Lines Shapefile are available in relationship (.dbf) files that users must download separately.  The All Lines Shapefile contains the geometry and attributes of each topological primitive edge.  Each edge has a unique TIGER/Line identifier (TLID) value.  
+</Abstract>
+         <Purpose>In order for others to use the information in the Census MAF/TIGER database in a geographic information system (GIS) or for other geographic applications, the Census Bureau releases to the public extracts of the database in the form of TIGER/Line Shapefiles.</Purpose>
+         <Subject_Entity>Kent, RI, (44003)</Subject_Entity>
+      </Description>
+      <Time_Period_of_Content>
+         <Beginning_Date>201606</Beginning_Date>
+         <Ending_Date>201705</Ending_Date>
+         <Currentness_Reference>publication date</Currentness_Reference>
+      </Time_Period_of_Content>
+      <Status>
+         <Progress>Complete</Progress>
+         <Maintenance_and_Update_Frequency>No changes or updates will be made to this version of the TIGER/Line Shapefiles.  Future releases of TIGER/Line Shapefiles will reflect updates made to the Census MAF/TIGER database.</Maintenance_and_Update_Frequency>
+      </Status>
+      <Spatial_Domain>
+         <West_Bounding_Coordinate>-71.789704</West_Bounding_Coordinate>
+         <East_Bounding_Coordinate>-71.325667</East_Bounding_Coordinate>
+         <North_Bounding_Coordinate>41.768333</North_Bounding_Coordinate>
+         <South_Bounding_Coordinate>41.596847</South_Bounding_Coordinate>
+      </Spatial_Domain>
+      <Keywords>
+         <Theme_ISO>
+            <Theme_Keyword_Thesaurus_ISO>ISO 19115 Topic Categories</Theme_Keyword_Thesaurus_ISO>
+            <Theme_Keyword>Transportation</Theme_Keyword>
+            <Theme_Keyword>InlandWaters</Theme_Keyword>
+            <Theme_Keyword>Boundaries</Theme_Keyword>
+         </Theme_ISO>
+         <Theme>
+            <Theme_Keyword_Thesaurus>None</Theme_Keyword_Thesaurus>
+            <Theme_Keyword>County or equivalent entity</Theme_Keyword>
+            <Theme_Keyword>Linear</Theme_Keyword>
+            <Theme_Keyword>Feature</Theme_Keyword>
+            <Theme_Keyword>Address Range</Theme_Keyword>
+            <Theme_Keyword>Street Centerline</Theme_Keyword>
+            <Theme_Keyword>Road Feature</Theme_Keyword>
+            <Theme_Keyword>Roads</Theme_Keyword>
+            <Theme_Keyword>Hydrography</Theme_Keyword>
+            <Theme_Keyword>Railways</Theme_Keyword>
+         </Theme>
+         <Place>
+            <Place_Keyword_Thesaurus>ANSI INCITS 38:2009 (Formerly FIPS 5-2), 
+                              ANSI INCITS 31:2009 (Formerly FIPS 6-4),ANSI 
+                              INCITS 454:2009 (Formerly FIPS 8-6), ANSI INCITS 
+                              455:2009(Formerly FIPS 9-1), ANSI INCITS 446:2008                           (Geographic Names Information System (GNIS))</Place_Keyword_Thesaurus>
+            <Place_Keyword>United States</Place_Keyword>
+            <Place_Keyword>U.S.</Place_Keyword>
+            <Place_Keyword>County or Equivalent Entity</Place_Keyword>
+            <Place_Keyword>Kent</Place_Keyword>
+            <Place_Keyword>44003</Place_Keyword>
+         </Place>
+      </Keywords>
+      <Access_Constraints>None</Access_Constraints>
+      <Use_Constraints>The TIGER/Line Shapefile products are not copyrighted however TIGER/Line and Census TIGER are registered trademarks of the U.S. Census Bureau.  These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as the source.
+The horizontal spatial accuracy information present in these files is provided for the purposes of statistical analysis and census operations only.  No warranty, expressed or implied is made with regard to the accuracy of the spatial accuracy, and no liability is assumed by the U.S. Government in general or the U.S. Census Bureau, specifically as to the spatial or attribute accuracy of the data.  The TIGER/Line Shapefiles may not be suitable for high-precision measurement applications such as engineering problems, property transfers, or other uses that might require highly accurate measurements of the earth's surface.Coordinates in the TIGER/Line shapefiles have six implied decimal places, but the positional accuracy of these coordinates is not as great as the six decimal places suggest.</Use_Constraints>
+      <Title_13_Restrictions>Yes, the data are free from Title 13 restrictions</Title_13_Restrictions>
+      <Point_of_Contact>
+         <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, 
+                         Geography Division, Spatial Data Collection and Products Branch</Contact_Organization>
+         <Contact_Address>
+            <Address_Type>mailing</Address_Type>
+            <Address>4600 Silver Hill Road, Stop 7400</Address>
+            <City>Washington</City>
+            <State_or_Province>DC</State_or_Province>
+            <Postal_Code>20233-7400</Postal_Code>
+            <Country>United States</Country>
+         </Contact_Address>
+         <Contact_Voice_Telephone>301-763-1128</Contact_Voice_Telephone>
+         <Contact_Facsimile_Telephone>301-763-4710</Contact_Facsimile_Telephone>
+         <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+      </Point_of_Contact>
+      <Data_Set_Character_Set>UTF-8</Data_Set_Character_Set>
+      <Data_Set_Language>eng</Data_Set_Language>
+   </Identification_Information>
+   <Data_Quality_Information>
+      <Attribute_Accuracy_Report>Accurate against National Standard Codes, Federal Information Processing (FIPS) and the Geographic Names Information System (GNIS) at the 100% level for the codes and base names.  The remaining attribute information has been examined but has not been fully tested for accuracy.</Attribute_Accuracy_Report>
+      <Logical_Consistency_Report>There may be some inconsistencies in feature names along features.  An anomaly exists with the sporadic occurrence of road segments comprising a complete chain with different MAF/TIGER Feature Census Class Code (MTFCC) values assigned.  This problem could affect applications that use the MTFCC values for network analysis, routing, or for assigning symbology to a feature when creating a map.
+The Census Bureau performed automated tests to ensure logical consistency and limits of shapefiles.  Node/geometry and topology relationships are collected or generated to satisfy topological edit requirements.  These requirements include:
+(1) Complete chains must begin and end at nodes.
+(2) Complete chains must connect to each other at nodes.
+(3) Complete chains do not extend through nodes.
+(4) Left and right polygons are defined for each complete chain element and are consistent throughout the extract process.
+(5) The chains representing the limits of the files are free of gaps.</Logical_Consistency_Report>
+      <Completeness_Report>Data completeness of the TIGER/Line Shapefiles reflects the contents of the Census MAF/TIGER database at the time the TIGER/Line Shapefiles were created.</Completeness_Report>
+      <Horizontal_Positional_Accuracy_Report>The Census Bureau uses Global Positioning System (GPS) coordinates at road centerline intersections to evaluate the horizontal spatial accuracy of source files that may be used to realign road features in the MAF/TIGER database and test the horizontal spatial accuracy of the road features in the TIGER/Line Shapefiles.  The test compares a survey-grade GPS coordinate to its associated road centerline intersection in the TIGER/Line Shapefiles.  The test is based on an independent collection of GPS coordinates for a random sample of road intersections from a centerline file that meet certain criteria.  The points are referred to as the sample points and are gathered through a private contractor working for the Census Bureau.  Since the collection method uses survey-quality GPS-based field techniques, the resulting control points are considered 'ground truth' against which the TIGER road centerline intersection coordinates are compared.  The distances between the coordinates are calculated and the Census Bureau determines the Circular Error 95% (CE95).  That is, the accuracy of the file in meters with 95% confidence.  The CE95 can be calculated from the mean and standard deviation by using the formula: mean of differences plus (2.65 times the standard deviation).  CE95 results reported for each file tested are determined using a spreadsheet with embedded statistical formula.  The use and applicability of the spreadsheet and its embedded formula have been verified by Census Bureau statisticians.  The basis of the calculation is the use of the root mean square error (RMSE).  This is the method as stated in the U.S. Government's Federal Geographic Data Committee Standard FGDC-STD-007.3-1998, Geospatial Positioning Accuracy Standards.  Part 3: National Standard for Spatial Data Accuracy.  The results of using this measure of accuracy are in compliance with Federal Spatial Data requirements.  In terms of the Census Bureau application, the dataset coordinate values are those taken from the centerline file and the coordinate values from an independent source of higher accuracy are those acquired through the Census Bureau's contractor.  Please note that the horizontal spatial accuracy, where reported, refers only to the realigned road features identified as matched to the positionally accurate source file with that accuracy.  It is not the spatial accuracy of the TIGER/Line Shapefile as a whole.</Horizontal_Positional_Accuracy_Report>
+      <Quantitative_Horizontal_Positional_Accuracy_Assessment>
+         <Horizontal_Positional_Accuracy_Value>4.279 meters for 10212</Horizontal_Positional_Accuracy_Value>
+         <Horizontal_Positional_Accuracy_Explanation>The Census Bureau uses root mean square error (RMSE) as stated in the FGDC-STD-007. 3-1998, Geospatial Positioning Accuracy Standards, Part 3: National Standard for Spatial Data Accuracy.</Horizontal_Positional_Accuracy_Explanation>
+      </Quantitative_Horizontal_Positional_Accuracy_Assessment>
+      <Quantitative_Horizontal_Positional_Accuracy_Assessment>
+         <Horizontal_Positional_Accuracy_Value>4.279 meters for 269</Horizontal_Positional_Accuracy_Value>
+         <Horizontal_Positional_Accuracy_Explanation>The Census Bureau uses root mean square error (RMSE) as stated in the FGDC-STD-007. 3-1998, Geospatial Positioning Accuracy Standards, Part 3: National Standard for Spatial Data Accuracy.</Horizontal_Positional_Accuracy_Explanation>
+      </Quantitative_Horizontal_Positional_Accuracy_Assessment>
+      <Quantitative_Horizontal_Positional_Accuracy_Assessment>
+         <Horizontal_Positional_Accuracy_Value>4.279 meters for 10210</Horizontal_Positional_Accuracy_Value>
+         <Horizontal_Positional_Accuracy_Explanation>The Census Bureau uses root mean square error (RMSE) as stated in the FGDC-STD-007. 3-1998, Geospatial Positioning Accuracy Standards, Part 3: National Standard for Spatial Data Accuracy.</Horizontal_Positional_Accuracy_Explanation>
+      </Quantitative_Horizontal_Positional_Accuracy_Assessment>
+      <Quantitative_Horizontal_Positional_Accuracy_Assessment>
+         <Horizontal_Positional_Accuracy_Value>4.279 meters for 305</Horizontal_Positional_Accuracy_Value>
+         <Horizontal_Positional_Accuracy_Explanation>The Census Bureau uses root mean square error (RMSE) as stated in the FGDC-STD-007. 3-1998, Geospatial Positioning Accuracy Standards, Part 3: National Standard for Spatial Data Accuracy.</Horizontal_Positional_Accuracy_Explanation>
+      </Quantitative_Horizontal_Positional_Accuracy_Assessment>
+      <Quantitative_Horizontal_Positional_Accuracy_Assessment>
+         <Horizontal_Positional_Accuracy_Value>4.279 meters for 10211</Horizontal_Positional_Accuracy_Value>
+         <Horizontal_Positional_Accuracy_Explanation>The Census Bureau uses root mean square error (RMSE) as stated in the FGDC-STD-007. 3-1998, Geospatial Positioning Accuracy Standards, Part 3: National Standard for Spatial Data Accuracy.</Horizontal_Positional_Accuracy_Explanation>
+      </Quantitative_Horizontal_Positional_Accuracy_Assessment>
+      <Quantitative_Horizontal_Positional_Accuracy_Assessment>
+         <Horizontal_Positional_Accuracy_Value>4.279 meters for 10315</Horizontal_Positional_Accuracy_Value>
+         <Horizontal_Positional_Accuracy_Explanation>The Census Bureau uses root mean square error (RMSE) as stated in the FGDC-STD-007. 3-1998, Geospatial Positioning Accuracy Standards, Part 3: National Standard for Spatial Data Accuracy.</Horizontal_Positional_Accuracy_Explanation>
+      </Quantitative_Horizontal_Positional_Accuracy_Assessment>
+      <Source_Information>
+         <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Originator>
+         <Publication_Date>Unpublished material</Publication_Date>
+         <Title>Census MAF/TIGER database</Title>
+         <Type_of_Source_Media>online</Type_of_Source_Media>
+         <Beginning_Date>201606</Beginning_Date>
+         <Ending_Date>201705</Ending_Date>
+         <Source_Currentness_Reference>publication date</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>MAF/TIGER</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>269
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>269
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected hydrographic features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>269
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected railroad features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>269
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>269
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected hydrographic features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>269
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected railroad features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>269
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>20010101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>20010101</Beginning_Date>
+         <Ending_Date>20010101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected road features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>269
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>20010101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>20010101</Beginning_Date>
+         <Ending_Date>20010101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected road features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>269
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>269
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>269
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>269
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>305
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Providence_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>305
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Providence_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>305
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>20010101</Publication_Date>
+         <Title>Providence_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>20010101</Beginning_Date>
+         <Ending_Date>20010101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected road features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>305
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>20010101</Publication_Date>
+         <Title>Providence_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>20010101</Beginning_Date>
+         <Ending_Date>20010101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected hydrographic features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>305
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>20010101</Publication_Date>
+         <Title>Providence_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>20010101</Beginning_Date>
+         <Ending_Date>20010101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected railroad features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>305
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>20010101</Publication_Date>
+         <Title>Providence_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>20010101</Beginning_Date>
+         <Ending_Date>20010101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected road features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>305
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>20010101</Publication_Date>
+         <Title>Providence_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>20010101</Beginning_Date>
+         <Ending_Date>20010101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected hydrographic features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>305
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>20010101</Publication_Date>
+         <Title>Providence_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>20010101</Beginning_Date>
+         <Ending_Date>20010101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected railroad features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>305
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>Unknown</Publication_Date>
+         <Title>Providence_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>Unknown</Beginning_Date>
+         <Ending_Date>Unknown</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>305
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>Unknown</Publication_Date>
+         <Title>Providence_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>Unknown</Beginning_Date>
+         <Ending_Date>Unknown</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>305
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>Unknown</Publication_Date>
+         <Title>Providence_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>Unknown</Beginning_Date>
+         <Ending_Date>Unknown</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>305
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>Unknown</Publication_Date>
+         <Title>Providence_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>Unknown</Beginning_Date>
+         <Ending_Date>Unknown</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>7190
+				Census Bureau - Geography Division
+				US Census Bureau - Geo Div - LFGPB</Originator>
+         <Publication_Date>Unknown</Publication_Date>
+         <Title>2010 ADCAN GPS Feature Updates</Title>
+         <Type_of_Source_Media>Unknown</Type_of_Source_Media>
+         <Beginning_Date>Unknown</Beginning_Date>
+         <Ending_Date>Unknown</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected road features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>7191
+				Census Bureau - Geography Division
+				US Census Bureau - Geo Div - LFGPB</Originator>
+         <Publication_Date>Unknown</Publication_Date>
+         <Title>2010 ADCAN Manual Feature Updates</Title>
+         <Type_of_Source_Media>Unknown</Type_of_Source_Media>
+         <Beginning_Date>Unknown</Beginning_Date>
+         <Ending_Date>Unknown</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected road features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10210
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10210
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected hydrographic features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10210
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected railroad features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10210
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10210
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected hydrographic features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10210
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected railroad features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10210
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>20010101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>20010101</Beginning_Date>
+         <Ending_Date>20010101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected road features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10210
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>20010101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>20010101</Beginning_Date>
+         <Ending_Date>20010101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected road features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10210
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10210
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10210
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10210
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10211
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10211
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected hydrographic features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10211
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected railroad features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10211
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10211
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected hydrographic features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10211
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected railroad features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10211
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>20010101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>20010101</Beginning_Date>
+         <Ending_Date>20010101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected road features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10211
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>20010101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>20010101</Beginning_Date>
+         <Ending_Date>20010101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected road features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10211
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10211
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10211
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10211
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10212
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10212
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected hydrographic features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10212
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected railroad features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10212
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10212
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected hydrographic features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10212
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected railroad features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10212
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>20010101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>20010101</Beginning_Date>
+         <Ending_Date>20010101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected road features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10212
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>20010101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>20010101</Beginning_Date>
+         <Ending_Date>20010101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected road features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10212
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10212
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10212
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10212
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Kent_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10315
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Providence_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10315
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>19970101</Publication_Date>
+         <Title>Providence_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>19970101</Beginning_Date>
+         <Ending_Date>19970101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10315
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>20010101</Publication_Date>
+         <Title>Providence_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>20010101</Beginning_Date>
+         <Ending_Date>20010101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected road features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10315
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>20010101</Publication_Date>
+         <Title>Providence_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>20010101</Beginning_Date>
+         <Ending_Date>20010101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected hydrographic features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10315
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>20010101</Publication_Date>
+         <Title>Providence_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>20010101</Beginning_Date>
+         <Ending_Date>20010101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected railroad features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10315
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>20010101</Publication_Date>
+         <Title>Providence_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>20010101</Beginning_Date>
+         <Ending_Date>20010101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected road features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10315
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>20010101</Publication_Date>
+         <Title>Providence_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>20010101</Beginning_Date>
+         <Ending_Date>20010101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected hydrographic features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10315
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>20010101</Publication_Date>
+         <Title>Providence_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>20010101</Beginning_Date>
+         <Ending_Date>20010101</Ending_Date>
+         <Source_Currentness_Reference>Ground Condition</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>Coordinates to realign selected railroad features in the Census MAF/TIGER database.</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10315
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>Unknown</Publication_Date>
+         <Title>Providence_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>Unknown</Beginning_Date>
+         <Ending_Date>Unknown</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10315
+				Rhode Island
+				Division of Planning</Originator>
+         <Publication_Date>Unknown</Publication_Date>
+         <Title>Providence_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>Unknown</Beginning_Date>
+         <Ending_Date>Unknown</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10315
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>Unknown</Publication_Date>
+         <Title>Providence_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>Unknown</Beginning_Date>
+         <Ending_Date>Unknown</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>10315
+				Rhode Island
+				RI Dept of Admnstr Div of IT</Originator>
+         <Publication_Date>Unknown</Publication_Date>
+         <Title>Providence_CO_Rhode Island GIS Files</Title>
+         <Type_of_Source_Media>CD-ROM</Type_of_Source_Media>
+         <Beginning_Date>Unknown</Beginning_Date>
+         <Ending_Date>Unknown</Ending_Date>
+         <Source_Currentness_Reference>Unknown</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>11875
+				Acquired from USDA</Originator>
+         <Publication_Date>2012</Publication_Date>
+         <Title>44_RI_2012_NAIP</Title>
+         <Type_of_Source_Media>Unknown</Type_of_Source_Media>
+         <Beginning_Date>2012</Beginning_Date>
+         <Ending_Date>2012</Ending_Date>
+         <Source_Currentness_Reference>2012</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Source_Information>
+         <Originator>12610
+				Acquired from USDA</Originator>
+         <Publication_Date>2014</Publication_Date>
+         <Title>44_RI_2014_NAIP</Title>
+         <Type_of_Source_Media>Unknown</Type_of_Source_Media>
+         <Beginning_Date>2014</Beginning_Date>
+         <Ending_Date>2014</Ending_Date>
+         <Source_Currentness_Reference>2014</Source_Currentness_Reference>
+         <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+         <Source_Contribution>All line segments</Source_Contribution>
+      </Source_Information>
+      <Process_Step>
+         <Process_Description>TIGER/Line Shapefiles are extracted from the Census MAF/TIGER database by nation, state, county, and entity.  Census MAF/TIGER data for all of the aforementioned geographic entities are then distributed among the shapefiles each containing attributes for line, polygon, or landmark geographic data. </Process_Description>
+         <Source_Used_Citation_Abbreviation>MAF/TIGER</Source_Used_Citation_Abbreviation>
+         <Process_Date>2017</Process_Date>
+      </Process_Step>
+   </Data_Quality_Information>
+   <Spatial_Data_Organization_Information>
+      <Indirect_Spatial_Reference>Federal Information Processing Series (FIPS), Geographic Names Information System (GNIS), and feature names.</Indirect_Spatial_Reference>
+      <Direct_Spatial_Reference_Method>Vector</Direct_Spatial_Reference_Method>
+      <SDTS_Terms_Description>
+         <SDTS_Point_and_Vector_Object_Type>Complete chain</SDTS_Point_and_Vector_Object_Type>
+         <Point_and_Vector_Object_Count>22197</Point_and_Vector_Object_Count>
+      </SDTS_Terms_Description>
+   </Spatial_Data_Organization_Information>
+   <Spatial_Reference_Information>
+      <Horizontal_Coordinate_System_Definition>
+         <Geographic>
+            <Latitude_Resolution>0.000458</Latitude_Resolution>
+            <Longitude_Resolution>0.000458</Longitude_Resolution>
+            <Geographic_Coordinate_Units>Decimal degrees</Geographic_Coordinate_Units>
+         </Geographic>
+         <Geodetic_Model>
+            <Horizontal_Datum_Name>North American Datum of 1983</Horizontal_Datum_Name>
+            <Ellipsoid_Name>Geodetic Reference System 80</Ellipsoid_Name>
+            <Semi-Major_Axis>6378137</Semi-Major_Axis>
+            <Denominator_of_Flattening_Ratio>298.257</Denominator_of_Flattening_Ratio>
+         </Geodetic_Model>
+      </Horizontal_Coordinate_System_Definition>
+   </Spatial_Reference_Information>
+   <Entity_and_Attribute_Information>
+      <Detailed_Description>
+         <Entity_Type>
+            <Entity_Type_Label>EDGES.shp</Entity_Type_Label>
+            <Entity_Type_Definition>Current All Lines County-based</Entity_Type_Definition>
+            <Entity_Type_Definition_Source>U.S. Census Bureau</Entity_Type_Definition_Source>
+         </Entity_Type>
+         <Attribute>
+            <Attribute_Label>STATEFP</Attribute_Label>
+            <Attribute_Definition>Current state Federal Information Processing Series (FIPS) code</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Codeset_Domain>
+                  <Codeset_Name>National Standard Codes (ANSI INCITS 38-2009), Federal Information Processing 
+                      Series (FIPS) - States/State Equivalents</Codeset_Name>
+                  <Codeset_Source>U.S. Census Bureau</Codeset_Source>
+               </Codeset_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>COUNTYFP</Attribute_Label>
+            <Attribute_Definition>Current county Federal Information Processing Series (FIPS) code</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Codeset_Domain>
+                  <Codeset_Name>National Standard Codes (ANSI INCITS 31-2009), Federal Information Processing 
+                      Series (FIPS) - Counties/County Equivalents</Codeset_Name>
+                  <Codeset_Source>U.S. Census Bureau</Codeset_Source>
+               </Codeset_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>TLID</Attribute_Label>
+            <Attribute_Definition>Permanent edge ID</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Range_Domain>
+                  <Range_Domain_Minimum>100001</Range_Domain_Minimum>
+                  <Range_Domain_Maximum>9999999999</Range_Domain_Maximum>
+               </Range_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>TFIDL</Attribute_Label>
+            <Attribute_Definition>Permanent face ID on the left of the edge</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Unrepresentable_Domain>Values for this attribute are composed of a set of Permanent face ID's. As such, 
+                they do not exist in a known, predefined set.</Unrepresentable_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>TFIDR</Attribute_Label>
+            <Attribute_Definition>Permanent face ID on the right of the edge</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Unrepresentable_Domain>Values for this attribute are composed of a set of Permanent face ID's. As such, 
+                they do not exist in a known, predefined set.</Unrepresentable_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>MTFCC</Attribute_Label>
+            <Attribute_Definition>MAF/TIGER feature class code of the primary feature for the edge</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>C3023</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Island</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>C3024</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Levee</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>C3027</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Dam</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>H1100</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Connector</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>H3010</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Stream/River</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>H3013</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Braided Stream</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>H3020</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Canal, Ditch or Aqueduct</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>K2432</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Pier/Dock</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>K2451</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Airport or Airfield</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>K2459</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Runway/Taxiway</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>L4010</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Pipeline</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>L4020</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Powerline</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>L4031</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Aerial Tramway/Ski Lift</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>L4040</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Conveyor</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>L4110</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Fence Line</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>L4121</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Ridge Line</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>L4125</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Cliff/Escarpment</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>L4130</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Point-to-Point Line</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>L4140</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Property/Parcel Line (Including PLSS)</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>L4150</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Coastline</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>L4165</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Ferry Crossing</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>P0001</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Nonvisible Linear Legal/Statistical Boundary</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>P0002</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Perennial Shoreline</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>P0003</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Intermittent Shoreline</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>P0004</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Other non-visible bounding Edge (e.g., Census water boundary, boundary of an 
+                    areal feature)</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>R1011</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Railroad Feature (Main, Spur, or Yard)</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>R1051</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Carline, Streetcar Track, Monorail, Other Mass Transit Rail)</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>R1052</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Cog Rail Line, Incline Rail Line, Tram</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>S1100</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Primary Road</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>S1200</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Secondary Road</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>S1400</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Local Neighborhood Road, Rural Road, City Street</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>S1500</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Vehicular Trail (4WD)</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>S1630</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Ramp</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>S1640</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Service Drive usually along a limited access highway</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>S1710</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Walkway/Pedestrian Trail</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>S1720</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Stairway</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>S1730</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Alley</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>S1740</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Private Road for service vehicles (logging, oil, fields, ranches, etc.)</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>S1750</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Private Driveway</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>S1780</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Parking Lot Road</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>S1820</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Bike Path or Trail</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>S1830</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Bridle Path</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>FULLNAME</Attribute_Label>
+            <Attribute_Definition>Concatenation of expanded text for prefix qualifier, prefix direction, prefix type, 
+                 base name, suffix type, suffix direction, and suffix qualifier (as available) with 
+                 a space between each expanded text field</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Unrepresentable_Domain>Values for this attribute are composed of a set of names. As such, they do not exist 
+                in a known, predefined set.</Unrepresentable_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>SMID</Attribute_Label>
+            <Attribute_Definition>Spatial metadata identifier</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>1 - 999999</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Spatial MID is positive, non-zero number</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>LFROMADD</Attribute_Label>
+            <Attribute_Definition>From house number associated with the most inclusive address range on the left side 
+                 of the edge</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Unrepresentable_Domain>Values for this attribute are composed of a set of house number's. As such, they do not 
+                exist in a known, predefined set.</Unrepresentable_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>LTOADD</Attribute_Label>
+            <Attribute_Definition>To house number associated with the most inclusive address range on the left side of 
+                 the edge</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Unrepresentable_Domain>Values for this attribute are composed of a set of house number's. As such, they do not 
+                exist in a known, predefined set.</Unrepresentable_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>RFROMADD</Attribute_Label>
+            <Attribute_Definition>From house number associated with the most inclusive address range on the right side of 
+                 the edge</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Unrepresentable_Domain>Values for this attribute are composed of a set of house number's. As such, they do not 
+                exist in a known, predefined set.</Unrepresentable_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>RTOADD</Attribute_Label>
+            <Attribute_Definition>To house number associated with the most inclusive address range on the right side of 
+                 the edge</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Unrepresentable_Domain>Values for this attribute are composed of a set of house number's. As such, they do not 
+                exist in a known, predefined set.</Unrepresentable_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>ZIPL</Attribute_Label>
+            <Attribute_Definition>ZIP code associated with the most inclusive address range on the left side</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Postal Service</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Range_Domain>
+                  <Range_Domain_Minimum>00500</Range_Domain_Minimum>
+                  <Range_Domain_Maximum>99999</Range_Domain_Maximum>
+               </Range_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>ZIPR</Attribute_Label>
+            <Attribute_Definition>ZIP code associated with the most inclusive address range on the right side</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Postal Service</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Range_Domain>
+                  <Range_Domain_Minimum>00500</Range_Domain_Minimum>
+                  <Range_Domain_Maximum>99999</Range_Domain_Maximum>
+               </Range_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>FEATCAT</Attribute_Label>
+            <Attribute_Definition>General feature classification category</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>C</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Miscellaneous Topographic Feature Name</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>H</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Hydrographic Feature Name</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>K</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Living Quarters, Workplace Locations, Group Quarters, Special Places, Building Names
+            </Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>L</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Miscellaneous Linear Feature Name</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>R</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Rail Feature Name</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>S</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Street/Road/Path/Trail Name</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>HYDROFLG</Attribute_Label>
+            <Attribute_Definition>Hydrography feature indicator</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>N</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>No</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>Y</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Yes</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>RAILFLG</Attribute_Label>
+            <Attribute_Definition>Rail feature indicator</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>N</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>No</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>Y</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Yes</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>ROADFLG</Attribute_Label>
+            <Attribute_Definition>Road feature indicator</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>N</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>No</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>Y</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Yes</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>OLFFLG</Attribute_Label>
+            <Attribute_Definition>Other linear feature indicator</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>N</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>No</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>Y</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Yes</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>PASSFLG</Attribute_Label>
+            <Attribute_Definition>Special passage flag</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>B</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Bridge</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>F</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Ford</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>T</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Tunnel</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>EXTTYP</Attribute_Label>
+            <Attribute_Definition>Extension type</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>B</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Automated feature extension to lengthen existing physical feature for block 
+                    delineation</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>C</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Nonvisible centerline of area enclosed by corridor boundary</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>I</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Irregular feature extension, determined manually, to lengthen existing physical feature
+            </Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>M</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Automated closure extension for cartographic products</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>N</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Not a feature extension</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>S</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Nonvisible separation line used with offset and corridor boundaries</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>TTYP</Attribute_Label>
+            <Attribute_Definition>Track type</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>M</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Main</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>O</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Other Rail Features</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>S</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Spur</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>Y</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Yard</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>DECKEDROAD</Attribute_Label>
+            <Attribute_Definition>Decked road indicator</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>A</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Rail above</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>B</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Rail below</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>H</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Road above a different road (allow MTFCCs to vary)</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>N</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Not Decked</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>R</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>One road split between several different levels (MTFCC cannot vary)</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>ARTPATH</Attribute_Label>
+            <Attribute_Definition>Artificial path indicator</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>C</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Census or Local Artificial Path</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>N</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Not an Artificial Path (default)</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>U</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>USGS Artificial Path or Connector Inside Water</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>PERSIST</Attribute_Label>
+            <Attribute_Definition>Hydrographic persistence flag</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>I</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Intermittent</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>P</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Perennial</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>GCSEFLG</Attribute_Label>
+            <Attribute_Definition>Short lines flag for geographic corridors</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>C</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Closure</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>N</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Indicates the edge is not a short edge</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>T</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Traverses corridor</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>OFFSETL</Attribute_Label>
+            <Attribute_Definition>Left offset flag</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>Y</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Yes</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>N</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>No</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>OFFSETR</Attribute_Label>
+            <Attribute_Definition>Right offset flag</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>Y</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>Yes</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+            <Attribute_Domain_Values>
+               <Enumerated_Domain>
+                  <Enumerated_Domain_Value>N</Enumerated_Domain_Value>
+                  <Enumerated_Domain_Value_Definition>No</Enumerated_Domain_Value_Definition>
+                  <Enumerated_Domain_Value_Definition_Source>U.S. Census Bureau</Enumerated_Domain_Value_Definition_Source>
+               </Enumerated_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>TNIDF</Attribute_Label>
+            <Attribute_Definition>From TIGER node identifier</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Range_Domain>
+                  <Range_Domain_Minimum>000000001</Range_Domain_Minimum>
+                  <Range_Domain_Maximum>999999999</Range_Domain_Maximum>
+               </Range_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+         <Attribute>
+            <Attribute_Label>TNIDT</Attribute_Label>
+            <Attribute_Definition>To TIGER node identifier</Attribute_Definition>
+            <Attribute_Definition_Source>U.S. Census Bureau</Attribute_Definition_Source>
+            <Attribute_Domain_Values>
+               <Range_Domain>
+                  <Range_Domain_Minimum>000000001</Range_Domain_Minimum>
+                  <Range_Domain_Maximum>999999999</Range_Domain_Maximum>
+               </Range_Domain>
+            </Attribute_Domain_Values>
+         </Attribute>
+      </Detailed_Description>
+   </Entity_and_Attribute_Information>
+   <Distribution_Information>
+      <Distributor>
+         <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Spatial Data Collection and Products Branch</Contact_Organization>
+         <Contact_Address>
+            <Address_Type>mailing</Address_Type>
+            <Address>4600 Silver Hill Road, Stop 7400</Address>
+            <City>Washington</City>
+            <State_or_Province>DC</State_or_Province>
+            <Postal_Code>20233-7400</Postal_Code>
+            <Country>United States</Country>
+         </Contact_Address>
+         <Contact_Voice_Telephone>301-763-1128</Contact_Voice_Telephone>
+         <Contact_Facsimile_Telephone>301-763-4710</Contact_Facsimile_Telephone>
+         <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+      </Distributor>
+      <Distribution_Liability>No warranty, expressed or implied is made with regard to the accuracy of these data, and no liability is assumed by the U.S. Government in general or the U.S. Census Bureau in specific as to the spatial or attribute accuracy of the data.  The act of distribution shall not constitute any such warranty and no responsibility is assumed by the U.S. government in the use of these files.  The boundary information in the TIGER/Line Shapefiles is for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes do not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.</Distribution_Liability>
+      <Standard_Order_Process>
+         <Digital_Form>
+            <Format_Name>TGRSHP (compressed)</Format_Name>
+            <File_Decompression_Technique>PK-ZIP, version 1.93 A or higher</File_Decompression_Technique>
+            <Digital_Transfer_Option>
+               <Network_Resource_Name>http://www2.census.gov/geo/tiger/TIGER2017/EDGES/tl_2017_44003_edges.zip</Network_Resource_Name>
+            </Digital_Transfer_Option>
+         </Digital_Form>
+         <Fees>The online copy of the TIGER/Line Shapefiles may be accessed without charge.</Fees>
+         <Ordering_Instructions>To obtain more information about ordering TIGER/Line Shapefiles visit http://www.census.gov/geo/www/tiger </Ordering_Instructions>
+      </Standard_Order_Process>
+      <Technical_Prerequisites>The TIGER/Line shapefiles contain geographic data only and do not include display mapping software or statistical data.  For information on how to use the TIGER/Line shapefile data with specific software package users shall contact the company that produced the software.</Technical_Prerequisites>
+   </Distribution_Information>
+   <Metadata_Reference_Information>
+      <Metadata_Date>20170601</Metadata_Date>
+      <Metadata_Contact>
+         <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Spatial Data Collection and Products Branch</Contact_Organization>
+         <Contact_Address>
+            <Address_Type>mailing</Address_Type>
+            <Address>4600 Silver Hill Road, Stop 7400</Address>
+            <City>Washington</City>
+            <State_or_Province>DC</State_or_Province>
+            <Postal_Code>20233-7400</Postal_Code>
+            <Country>United States</Country>
+         </Contact_Address>
+         <Contact_Voice_Telephone>301-763-1128</Contact_Voice_Telephone>
+         <Contact_Facsimile_Telephone>301-763-4710</Contact_Facsimile_Telephone>
+         <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+      </Metadata_Contact>
+      <Metadata_Standard_Name>FGDC Content Standards for Digital Geospatial Metadata</Metadata_Standard_Name>
+      <Metadata_Standard_Version>FGDC-STD-001-1998</Metadata_Standard_Version>
+      <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
+      <Metadata_File_Identifier>tl_2017_44003_edges.shp.xml</Metadata_File_Identifier>
+      <Metadata_Language>eng</Metadata_Language>
+   </Metadata_Reference_Information>
+</MRF>
