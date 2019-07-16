@@ -85,8 +85,8 @@
             <!-- gmd:scope -->
 
             <!-- /metadata/dataqual/posacc/horizpa -->
-          <!--   <xsl:if test="/MRF/Data_Quality_Information/Horizontal_Positional_Accuracy_Report">--> 
-            <xsl:for-each select="/MRF/Data_Quality_Information[1]/Horizontal_Positional_Accuracy_Report">
+          <!--   <xsl:if test="/MRF/Data_Quality_Inform">--> 
+            <xsl:for-each select="/MRF/Data_Quality_Information[1]/Quantitative_Horizontal_Positional_Accuracy_Assessment">
               <!--      <xsl:comment>In the loop!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</xsl:comment>-->
                <xsl:element name="gmd:report">
                   <xsl:element name="gmd:DQ_AbsoluteExternalPositionalAccuracy">
@@ -115,22 +115,23 @@
                      <!-- gmd:evaluationMethodDescription -->
 
                      <xsl:choose>  <!-- /MRF/Data_Quality_Information/Horizontal_Positional_Accuracy_Report -->
-                        <xsl:when test="/MRF/Data_Quality_Information/Quantitative_Horizontal_Positional_Accuracy_Assessment/Horizontal_Positional_Accuracy_Value">
+                        <xsl:when test="/MRF/Data_Quality_Information[1]/Quantitative_Horizontal_Positional_Accuracy_Assessment/Horizontal_Positional_Accuracy_Value">
                            <!-- <xsl:if test="/MRF/Data_Quality_Information/Quantitative_Horizontal_Positional_Accuracy_Assessment/Horizontal_Positional_Accuracy_Value"> -->
                            <xsl:element name="gmd:result">
                               <xsl:element name="gmd:DQ_QuantitativeResult">
 
                                  <xsl:element name="gmd:valueUnit">
-                                       <xsl:variable name="AccValueA" select="./Horizontal_Positional_Accuracy_Value"/>
+                                       <xsl:variable name="AccValueA" select="./MRF/Data_Quality_Information[1]/Quantitative_Horizontal_Positional_Accuracy_Assessment[1]/Horizontal_Positional_Accuracy_Value[1]"/>
                                     <xsl:variable name="AccValue" select="normalize-space(./Horizontal_Positional_Accuracy_Value)"/>
                                        <xsl:variable name="NumOfMeters" select="substring($AccValue,0,5)"/>
                                         <xsl:variable name="postFor" select="substring-after($AccValue,'for ')"/>
                                        <xsl:variable name="ComMeters" select="concat('Meters',$NumOfMeters,'for',$postFor)"/>
                                        <xsl:variable name="ComMetersB" select="normalize-space($ComMeters)"></xsl:variable>
-                                       <!--   <xsl:comment>present:<xsl:value-of select="."></xsl:value-of></xsl:comment>
+                                    
+                                      <!--   <xsl:comment>present:<xsl:value-of select="."></xsl:value-of></xsl:comment>
                                        <xsl:comment>AccValue:<xsl:value-of select="$AccValue"/></xsl:comment>
                                        <xsl:comment>NumOfMeter:<xsl:value-of select="$NumOfMeters"/></xsl:comment>
-                                       <xsl:comment>postFor:<xsl:value-of select="$postFor"/></xsl:comment> -->
+                                       <xsl:comment>postFor:<xsl:value-of select="$postFor"/></xsl:comment> -->  
                                     <xsl:element name="gml:BaseUnit">
 
                                        <!--    <xsl:attribute name="gml:id">meters</xsl:attribute>-->
